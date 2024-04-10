@@ -29,8 +29,8 @@ Ciclo 2024-01
 | :-------------------------------- | :--------: |
 | Claudio Sandro Quispesivana Torres| U202215099 |
 | Jherson David Astuyauri Calderon  | U202218451 |
-| Hernan Emilio Morales Calderon    | u202216263 |
-| |  |
+| Hernan Emilio Morales Calderon    | U202216263 |
+| Chinchihualpa Saldarriaga Luis Sebastian | U202212112 |
 | |  |
 
 <br>
