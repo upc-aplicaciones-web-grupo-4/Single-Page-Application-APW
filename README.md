@@ -43,21 +43,34 @@ Ciclo 2024-01
 
 
 
+## Capítulo-II-Requirements-Elicitation-&-Analysis
 
 
+### 2.1. Competidores
 
 
 
 
 
+#### 2.1.1. **Análisis competitivo**
 
 
 
 
 
 
+#### 2.1.2.   **Estrategias y tácticas frente a competidores.**
 
+A continuación, vamos a incluir las estrategias y tácticas preliminares que nuestro startup implementará para afrontar a nuestros competidores, de modo que aplicaremos lo siguiente:
 
+- Diseñar una interfaz de usuario intuitiva y amigable, superando la competencia en términos de facilidad de uso y experiencia del usuario.
+- Implementar un sistema de seguimiento y análisis de datos avanzado, permitiendo una optimización proactiva de los tratamientos y diferenciándonos por nuestro enfoque basado en la evidencia.
+- Brindar un servicio al cliente excepcional, ofreciendo soporte técnico y asesoramiento médico personalizado, destacándonos como una solución integral y confiable.
+- Establecer políticas de precios flexibles y competitivas, garantizando una mayor accesibilidad a nuestra solución y capturando diferentes segmentos de mercado.
+- Ofrecer un acceso fácil y rápido a la información médica personal, permitiendo a los pacientes monitorear y comprender mejor su condición de salud a través de nuestra aplicación.
+- Proporcionar herramientas interactivas para el autocuidado y la gestión de la salud, como recordatorios de medicación, seguimiento de síntomas y consejos de estilo de vida saludable
+- Incorporar funciones de telemedicina y consulta en línea, permitiendo a los pacientes acceder a atención médica inmediata y sin barreras geográficas desde la comodidad de sus hogares.
+- Garantizar la privacidad y seguridad de los datos del paciente, estableciendo altos estándares de protección de la información personal y médica dentro de la aplicación.
 
 
 
@@ -181,6 +194,45 @@ Ciclo 2024-01
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 2.2.2.   Registro de entrevistas.
+
+
+##### >Segmento de usuario – Médicos endocrinólogos.
+
+
+
+
+
+
+
+
+
+
+
+##### >Segmento de usuario – Pacientes con enfermedades hormonales.
+
+
+
+***Paciente 1:***
+| Datos del paciente: | Entrevista |
+|---|---|
+|  <p>Nombres:  Joaquin </p> <p>Apellidos: Benavides</p> <p> Edad: 20 años</p> <p> Localidad: San Miguel, Lima</p>| <img src="images/EntrevistaJoaquinBenavides.png" width=400>[Enlace Entrevista](https://upcedupe-my.sharepoint.com/personal/u202211742_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202211742%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%5FJoaquin%2Emp4&ga=1) |
+| Resumen:<p>Joaquín Benavides ha enfrentado desafíos en el seguimiento de su tratamiento para el hipotiroidismo debido a la burocracia en los servicios de salud y las largas esperas para consultas médicas. A pesar de visitar a su endocrinólogo cada tres meses, ha tenido dificultades al explicar sus síntomas a médicos poco familiarizados con su condición, lo que ha retrasado el tratamiento adecuado y afectado su adherencia al mismo. Para mejorar su experiencia, Joaquín estaría interesado en una aplicación móvil que le ayude a recordar tomar su medicación diaria, proporcione información sobre el hipotiroidismo y facilite la comunicación directa con su médico para consultas o ajustes en el tratamiento. Considera esencial que esta aplicación ofrezca características como recordatorios de medicación personalizables, acceso fácil a información relevante y una vía segura de comunicación con su médico.
+
+</p> | 
 
 
 
