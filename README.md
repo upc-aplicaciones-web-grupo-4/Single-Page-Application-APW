@@ -392,17 +392,17 @@ A continuación, vamos a incluir las estrategias y tácticas preliminares que nu
 
 ### 2\.3.2.   **User Task Matrix.** 
 
-|**Task Matrix**|**Dr. Luis Chinchihualpa<br><br>Frecuencia    Importancia**|**Dr. Ricardo Durand<br><br>Frecuencia    Importancia**|**Dra. Roxana<br><br>Frecuencia    Importancia**|<p>**Joaquin Benavides**</p><p><br>**Frecuencia    Importancia**</p>|**Arnold Castrejón<br><br>Frecuencia    Importancia**|**Alicia Garrido<br><br>Frecuencia    Importancia**||
+|**Task Matrix**|**Dr. Luis Chinchihualpa<br><br>Frecuencia    Importancia**|**Dr. Ricardo Durand<br><br>Frecuencia    Importancia**|**Dra. Roxana<br><br>Frecuencia    Importancia**|<p>**Joaquin Benavides**</p><p><br>**Frecuencia    Importancia**</p>|**Arnold Castrejón<br><br>Frecuencia    Importancia**|**Alicia Garrido<br><br>Frecuencia    Importancia**|
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :- |
-|**Enfrentan problemas de logística.**|A veces Alta|A veces Alta|A veces Alta|A veces Alta|A veces Alta|A veces Alta||
-|**Registrar información médica personal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta||
-|**Reservar una cita médica.**|A veces Alta|A veces Alta|A veces Alta|A veces Media|A veces Media|A veces Media||
-|**Anotar los horarios (citas y receta medica).**|Siempre Media|Siempre Media|Siempre Media|Siempre Media|Siempre Media|Siempre Media||
-|**Realizar seguimiento de la enfermedad hormonal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Media|Siempre Alta|Siempre Alta||
-|**Acceder a información médica personal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta||
-|**Analizar resultados de seguimiento.**|A veces Alta|Siempre Alta|Siempre Alta|A veces Baja|Siempre Media|Siempre Media||
-|**Presentar resultado de los exámenes.**|A veces Alta|A veces Alta|A veces Alta|A veces Media|A veces Alta|A veces Alta||
-|**Seguir una receta medica**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Media|Siempre Alta|Siempre Alta||
+|**Enfrentan problemas de logística.**|A veces Alta|A veces Alta|A veces Alta|A veces Alta|A veces Alta|A veces Alta|
+|**Registrar información médica personal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|
+|**Reservar una cita médica.**|A veces Alta|A veces Alta|A veces Alta|A veces Media|A veces Media|A veces Media|
+|**Anotar los horarios (citas y receta medica).**|Siempre Media|Siempre Media|Siempre Media|Siempre Media|Siempre Media|Siempre Media|
+|**Realizar seguimiento de la enfermedad hormonal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Media|Siempre Alta|Siempre Alta|
+|**Acceder a información médica personal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|
+|**Analizar resultados de seguimiento.**|A veces Alta|Siempre Alta|Siempre Alta|A veces Baja|Siempre Media|Siempre Media|
+|**Presentar resultado de los exámenes.**|A veces Alta|A veces Alta|A veces Alta|A veces Media|A veces Alta|A veces Alta|
+|**Seguir una receta medica**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Media|Siempre Alta|Siempre Alta|
 
 
 
