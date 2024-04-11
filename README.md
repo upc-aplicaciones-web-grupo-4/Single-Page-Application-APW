@@ -48,9 +48,9 @@ Nuestra misión es simple pero poderosa: transformar la forma en que se realizan
 
 
 
-Logo del Startup:
+Logo del Startup: <img src="images/imagen1.jpg" width="700" height="150" alt="logoEmpresa">    
  
-Logo del producto:
+Logo del producto:<img src="images/imagen.png" width="700" height="150" alt="logoAplicacion">    
  
 
 
