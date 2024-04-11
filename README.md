@@ -91,6 +91,7 @@ Ciclo 2024-01
 Para garantizar la eficiencia y evitar conflictos en el desarrollo de soluciones, los proyectos de NinjaCode se gestionaron en una organización de GitHub. Dentro de esta organización, se encuentran los repositorios correspondientes a cada proyecto. Aquí están los enlaces a los repositorios:
 
 **Landing page:**
+[https://github.com/upc-aplicaciones-web-grupo-4/LandingPageAppWeb](https://github.com/upc-aplicaciones-web-grupo-4/LandingPageAppWeb)
 
 **Tests de Aceptación:**
 
@@ -132,7 +133,11 @@ Utilizamos el servicio GitHub Pages para desplegar la landing page de HormonalCa
 4.	Después de haber seleccionado la rama, confirmamos los cambios realizados, y GitHub realizo el proceso de despliegue de la landing page.
 5.	Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada (htt).
 
+### 5.2.	Landing Page, Services & Applications Implementation.
 
+#### 5.2.1.   Sprint 1
+
+##### 5.2.1.1. Sprint Planning 1.
 
 
 
