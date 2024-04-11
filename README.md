@@ -192,6 +192,19 @@ En cuanto a los avances de la implementación de nuestro primer sprint, se puede
 |LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
 
 
+###### 5.2.1.4. Testing Suite Evidence for Sprint Review.
+Para esta entrega, no se implementó el conjunto de apartados relacionados con Web Services, ya que el desarrollo se hizo en base al Landing Page.
+		5.2.1.5. Execution Evidence for Sprint Review.
+Video enseñando la landing page
+Link al video: 
+###### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Este primer Sprint solo trata la implementación del landing page, por lo que no se empleó ningún servicio adicional.
+
+###### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+###### 5.2.1.8. Team Collaboration Insights during Sprint.
+
 
 
 
