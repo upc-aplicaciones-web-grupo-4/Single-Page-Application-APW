@@ -39,27 +39,219 @@ Ciclo 2024-01
 
 
 
+## CÁPITULO IV: PRODUCT DESIGN
+
+### 4.1. Style Guidelines.
+
+En esta sección presentaremos los diversos elementos que hemos seleccionado para la aplicación y página web de nuestro producto. Estos han sido escogidos no únicamente para brindarles una interfaz estética y práctica a nuestros usuarios, sino también para poder transmitirles a nuestros usuarios las emociones y valores positivos que deseamos lograr mediante los recursos visuales empleados.
+
+#### 4.1.1. General Style Guidelines.
+
+Colors:
+Para nuestra paleta de colores inicial hemos decidido emplear una escala de lilas de tono pastel. El motivo es porque son tonos suaves, que son gentiles a la vista y que además serán capaces de transmitir y producir al usuario una sensación de tranquilidad, sobre todo a quienes recién debutan con alguna enfermedad.
+
+<div align="center"><img src="images/Style Guidelines/GeneralColors.png"></div>
+Tipografía: 
+
+Escala
+
+Base: 16px
+
+Tipografía: Open-Sans
+
+interlineado:1,15
+
+Peso
+
+Light
+
+Regular 
+
+Medium
+
+SemiBold
+
+Bold
+
+ExtraBold
+
+Black
+
+Nomenclatura
+
+<div align="center"><img src="images/Style Guidelines/nomenclatura.png"></div>
+
+
+Branding:
+
+El logo de la aplicación "Hormonal Care" combina colores azul, verde y blanco, y una tipografía sans-serif para transmitir confianza, profesionalidad y accesibilidad a médicos y pacientes. El nombre es claro, conciso y describe el objetivo de la aplicación. El logo busca crear una imagen familiar y confiable, similar a otras aplicaciones de salud.
+
+<div align="center"><img src="images/Style Guidelines/logo hormonal.png"></div>
+
+
+#### 4.1.2. Web Style GUidelines.
+
+Colores: En HormonalCare, elegimos colores que reflejan la tranquilidad. Malva, lavanda y azules para calma, verde para conexión con la naturaleza y marrón para estabilidad. Nuestros estilos de letra transmiten seriedad y vitalidad, creando un entorno que fomenta la paz interior y la claridad mental en tu práctica de mindfulness y meditación.
+
+<div align="center"><img src="images/Style Guidelines/webcolors.png"></div>
+
+
+Tipografía (Desktop): Estos tamaños y estilos de fuente han sido elegidos para maximizar la legibilidad y la coherencia en toda la plataforma. Creemos que esta combinación de diseño visual y tipografía proporciona un ambiente propicio para tu práctica de mindfulness y meditación en línea.
+
+<div align="center"><img src="images/Style Guidelines/Tipografia.png"></div>
+
+La aplicación "Hormonal Care" presenta botones con diferentes funciones, como pagar, aceptar, cancelar, enviar, ver historia clínica, próxima cita, etc. Estos botones están diseñados para facilitar la navegación y el uso de la aplicación, con colores, tipografía y etiquetas claras para una mejor experiencia de usuario.
+
+<div align="center"><img src="images/Style Guidelines/Botones.png"></div>
+
+Íconos:
+
+<div align="center"><img src="images/Style Guidelines/Iconos.png"></div>
 
 
 
+### 4.2. Information Architecture.
+
+#### 4.2.1.   Organization Systems.
+
+Para el desarrollo de la aplicación "HormonalCare", estableceremos primero las definiciones de los requisitos y objetivos, identificando las necesidades de los pacientes y médicos, así como estableciendo metas claras. Luego, se procede al diseño de la arquitectura, planificando tanto el frontend como el backend de la aplicación, y diseñando la estructura de la base de datos correspondiente. Posteriormente, se avanza con el desarrollo del backend, implementando la lógica de negocio y asegurando la seguridad de los datos. Simultáneamente, se trabaja en el desarrollo del frontend, creando una interfaz de usuario intuitiva y funcional. Se prioriza la implementación de funcionalidades clave, tales como herramientas para seguimiento médico y telemedicina. Una vez completado el desarrollo, se procede a realizar pruebas exhaustivas y ajustes según el feedback recibido. 
+
+#### 4.2.2.   Labeling Systems.
+
+Hemos realizado un análisis exhaustivo de la funcionalidad y los elementos clave de nuestra plataforma "HormonalCare", con el objetivo de establecer un sistema de etiquetado eficiente. Mediante este proceso, hemos identificado las siguientes etiquetas esenciales: 
+
+Perfil del Paciente: Esta etiqueta proporciona acceso al perfil personal de cada paciente, donde pueden ver y editar su información personal, así como su historial médico y los registros de seguimiento de su enfermedad hormonal. 
+
+Consultas Médicas: Aquí se agrupan todas las funciones relacionadas con las consultas médicas, como la programación de citas, la realización de consultas virtuales, el acceso a recetas médicas y la comunicación con el médico. 
+
+Notificaciones y Recordatorios: En esta etiqueta se encuentran las notificaciones importantes para los pacientes, como recordatorios de citas médicas, alertas de medicación y avisos sobre cambios en el tratamiento. 
+
+Configuración de la Cuenta: Esta categoría permite a los usuarios gestionar su cuenta, ajustar sus preferencias de privacidad, configurar notificaciones y actualizar su información personal. 
+
+#### 4.2.3.   SEO Tags and Meta Tags.
+
+A continuación, se mostrarán las etiquetas que representan el contenido que se va a mostrar en nuestra aplicación web, como en nuestra landing page. De esta manera, se podrá encontrar a HormonalCare en los buscadores. 
+
+**Sitio web estatico**: 
+
+Title: HormonalCare 
+
+Description: HormonalCare – NinjaCode Oficial Landing Page 
+
+Keywords: selfcare, medical, tracking, telemedicine, hormonaldisorder 
+
+Authors: NinjaCode 
+
+**Aplicacion web**: 
+
+Title: HormonalCare 
+
+Description: HormonalCare – NinjaCode Oficial Web Site 
+
+Keywords: selfcare, medical, tracking, telemedicine, hormonaldisorder
+
+Authors: NinjaCode 
+
+#### 4.2.4.   Searching Systems.
+
+Para HormonalCare, un sistema de búsqueda podría permitir a médicos y pacientes encontrar rápidamente información relevante dentro de la aplicación. Aquí hay un ejemplo de cómo podría funcionar: 
+
+El sistema de búsqueda de HormonalCare proporcionaría a los usuarios la capacidad de buscar información específica dentro de la plataforma. Los médicos podrían buscar registros de pacientes por nombre, fecha o tipo de examen, facilitando el acceso a la información médica relevante de manera rápida y eficiente. Los pacientes, por otro lado, podrían buscar recursos educativos sobre enfermedades hormonales, consejos de autocuidado o respuestas a preguntas frecuentes. 
+
+#### 4.2.5.   Navigation Systems.
+
+HormonalCare ha sido diseñado con un sistema de navegación intuitivo y claro para facilitar la experiencia del usuario. Los usuarios pueden explorar fácilmente las distintas secciones de la aplicación mediante un menú de navegación ubicado en la parte superior de la interfaz.  
+
+
+### 4.3. Landing Page UI Design.
+#### 4.3.1. Landing Page Wireframe.
+Los wireframes de la landing page se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/Wireframes desktop/welcome.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/Wireframes desktop/Feature1.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature2.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature3.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature4.png"></div>
+Sección de los precios:
+<div align="center"><img src="images/Wireframes desktop/Pricing.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/Wireframes desktop/Conctact us.png"></div>
+Sección de About us:
+<div align="center"><img src="images/Wireframes desktop/About us.png"></div>
+Pie de página:
+<div align="center"><img src="images/Wireframes desktop/Pie de pagina.png"></div>
+
+
+Para un navegador web en mobile.
+Encabezado:
+<div align="center"><img src="images/Wireframes mobile/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/Wireframes mobile/Feature1.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature2.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature3.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/Wireframes mobile/Pricing1.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Pricing2.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Pricing3.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/Wireframes mobile/Conctact Us.png"></div>
+Sección de About us:
+<div align="center"><img src="images/Wireframes mobile/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/Wireframes mobile/PiePagina.png"></div>
+
+
+#### 4.3.2. Landing Page Mock-up. V1.0
+Para el diseño Mock-up version 1.0 de la landing page se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/MockUp desktop/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/MockUp desktop/Feature1.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature2.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature3.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/MockUp desktop/Pricing.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/MockUp desktop/ContactUs.png"></div>
+Sección de About us:
+<div align="center"><img src="images/MockUp desktop/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/MockUp desktop/piedepagina.png"></div>
+
+Para el diseño Mock-up version 1.0 mobile se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/MockUp mobile/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/MockUp mobile/Feature1.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature2.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature3.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/MockUp mobile/Pricing1.png"></div>
+<div align="center"><img src="images/MockUp mobile/Pricing2.png"></div>
+<div align="center"><img src="images/MockUp mobile/Pricing3.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/MockUp mobile/ContactUs.png"></div>
+Sección de About us:
+<div align="center"><img src="images/MockUp mobile/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/MockUp mobile/piedepagina.png"></div>
 
 
 
+### 4.4.      Web Applications UX/UI Design.
+#### 4.4.1.   Web Applications Wireframes.
+#### 4.4.2.   Web Applications Wireflow Diagrams.
+#### 4.4.3.   Web Applications Mock-ups.
+#### 4.4.4.   Web Applications User Flow Diagrams.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 4.5.      Web Applications Prototyping.
 
 
 
