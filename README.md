@@ -31,6 +31,6 @@ Ciclo 2024-01
 | Jherson David Astuyauri Calderon  | U202218451 |
 | Hernan Emilio Morales Calderon    | U202216263 |
 | Chinchihualpa Saldarriaga Luis Sebastian | U202212112 |
-| |  |
+| Lostaunau Pereira Estefano Sebastian | U202211742 |
 
 <br>
