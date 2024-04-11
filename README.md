@@ -263,7 +263,7 @@ Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como méd
 
 ##### 1.2.1.4.	Lean UX Canvas.
 
-<img src="images/leanUxCanva.png" width="1600" height="900" alt="LeanUXCanvas">
+<img src="images/leanUxCanva.png" width="1600" height="700" alt="LeanUXCanvas">
 
 
 
@@ -284,7 +284,7 @@ Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como méd
 
 
     
-[https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305)](https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305)
+[https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305](https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305)
 
 
 ## 1.3.	Segmentos objetivo.
