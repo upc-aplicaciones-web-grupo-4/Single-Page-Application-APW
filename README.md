@@ -36,6 +36,22 @@ Ciclo 2024-01
 <br>
 </div>
 
+## CAPÍTULO I: INTRODUCCIÓN
+### 1.1.	Startup Profile
+**Descripción de la Startup**
+NinjaCode es un startup compuesto por estudiantes de la Facultad de Ingeniería y Ciencias de la Universidad Peruana de Ciencias Aplicadas (UPC), dedicados a optimizar los seguimientos médicos. Nuestra visión es abordar los desafíos existentes en el sistema de atención médica peruano, especialmente en el seguimiento de enfermedades hormonales.
+En el Perú, el sistema de atención médica para pacientes diagnosticados con enfermedades hormonales enfrenta desafíos significativos. La simplicidad del sistema se ve opacada por su falta de eficiencia, tanto para los médicos como para los pacientes. Esta ineficiencia se agudiza en los centros de salud estatales, donde la demanda supera ampliamente la capacidad de atención. Es en este escenario donde NinjaCode ha intervenido desarrollando soluciones tecnológicas que agilizan los tratamientos y optimizan los recursos disponibles en todas las regiones del Perú.
+Nuestro enfoque se centra en la comunicación, seguridad y gestión eficiente de los datos de nuestros usuarios. La aplicación HormonalCare, desarrollada por NinjaCode, proporciona una experiencia de navegación óptima para el seguimiento médico de enfermedades hormonales en el Perú. Con HormonalCare, buscamos revolucionar la forma en que se realizan los seguimientos médicos, brindando una plataforma tecnológica segura, intuitiva y eficiente que permite a los pacientes y profesionales de la salud gestionar y monitorear enfermedades hormonales de manera efectiva.
+
+Nuestra misión es simple pero poderosa: transformar la forma en que se realizan los seguimientos médicos, mejorando la calidad de vida de millones de personas en todo el mundo. Aspiramos a liderar la industria de la salud digital, siendo reconocidos por nuestra innovadora aplicación HormonalCare. Nos esforzamos por establecer estándares de excelencia en seguridad de datos, conectividad y experiencia de usuario en el campo del seguimiento médico de enfermedades hormonales.
+
+
+
+
+Logo del Startup:
+ 
+Logo del producto:
+ 
 
 
 
