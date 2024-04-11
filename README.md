@@ -34,3 +34,32 @@ Ciclo 2024-01
 | Lostaunau Pereira Estefano Sebastian | U202211742 |
 
 <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Capítulo-III-Requirements-Specification
+
+### 3.1. To-Be Scenario Mapping.
+Nuestro equipo, durante el proceso de elaboración del mapa "To Be" involucró la generación de ideas y propuestas de mejora mediante una lluvia de ideas individual. Se identificaron soluciones potenciales para abordar los desafíos y problemas identificados en el mapa "As Is". Luego, se definieron las fases del proceso como columnas en el mapa "To Be" y se representaron las mejoras propuestas para cada fase. Estas mejoras incluyeron la implementación de soluciones tecnológicas para agilizar la gestión de citas, mejorar el acceso a la información del paciente y facilitar la comunicación entre médicos y pacientes.
+
+**User Persona: Paciente**
+<img src="images/To be-medico.png">
+**User Persona: Médico**
+<img src="images/To be - paciente.png">
+[Enlace To.be](https://miro.com/app/board/uXjVKaoDitI=/)
+
+
+### 3.2. User Stories.
+En la siguiente tabla, se presentan las User Stories junto con sus criterios de aceptación correspondientes para nuestro proyecto "HormonalCare". Las User Stories representan las funcionalidades clave que se desean implementar en la aplicación para mejorar la experiencia de los usuarios, tanto pacientes como médicos endocrinólogos. 
+
