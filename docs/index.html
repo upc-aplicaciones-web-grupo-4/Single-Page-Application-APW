@@ -128,3 +128,126 @@
           </div>
         </div>
     </section>
+
+    <!--Contacto(contact us)-->
+    <section id="sectioncontactus" class="sectioncontactus">
+        <div class="contact-section formulario-contacto" style="background-image: url('assets/images/fondito.png');">
+            <div class="contact-content">
+              <div class="contact-form">
+                <h1>Contact us</h1>
+                <form action="submit_form.php" method="post">
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Write your name here" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Write your email here" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">How can we help you?</label>
+                    <textarea id="message" name="message" placeholder="Write a message here" required></textarea>
+                  </div>
+                  <button type="submit" class="submit-btn">Send</button>
+                </form>
+              </div>
+          
+             
+          </div>
+        </div>
+    </section>
+    
+    <!--About us-->
+    <section id="more-information" class="more-information">
+        <div class ="more-information-container">
+            <div class="textinsideaboutus">
+                <div class ="know-more">Know more</div>
+            <div class="about-us">About us</div>
+            <div class="welcome">
+                <p>
+                    NinjaCode is a startup made up of students from the Faculty of Engineering and Sciences of the Peruvian University of Applied Sciences (UPC), dedicated to optimizing medical follow-ups. Our vision is to address the existing challenges in the Peruvian healthcare system, especially in the monitoring of hormonal diseases.
+                </p>
+            </div>
+            </div>
+            
+            <div class="logoNinjacode">
+                <img src="assets/images/NinjaCodeLogo.jpg" alt="NinjaCodeLogo" />
+            </div>
+        </div>
+        
+        
+    </section>
+
+
+    
+
+
+    <!--Footer-->
+    <footer class="pie-pagina">
+        <div class="grupo1">
+            <div class="box">
+                <h2>Members of NINJACODE</h2>
+                <ul class="memberninjacode">
+                    <li>Jherson Astuyauri</li>
+                    <li>Sandro Quipesivana</li>
+                    <li>Luis Chinchihualpa</li>
+                    <li>Estefano Lostaunau</li>
+                    <li>Sebastian Lobato</li>
+                </ul>
+
+            </div>
+            <div class="box">
+                <h2>Technologies</h2>
+                
+                <ul class="TecnologieHormonalCare">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Angular</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h2>FOLLOW US</h2>
+                <div class="redes-sociales">
+                    <a href="#" class="Github"><i class="fab fa-github"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy; 2024 <b>HormonalCare</b> - All rights reserved.</small>
+        </div>
+    </footer>
+
+
+    <!--Links-->
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const swiper = new Swiper('.swiper-hero', {
+                direction: 'horizontal',
+                loop: false,
+                allowTouchMove: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                }
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5f7875a9e1.js" crossorigin="anonymous"></script>
+</body>
+</html>
