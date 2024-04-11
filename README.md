@@ -222,7 +222,7 @@ La pregunta que guía nuestro proyecto es: ¿Cómo puede una aplicación web sup
 
 ##### 1.2.1.2.	Lean UX Assumptions.
 
-Business Assumptions:
+**Business Assumptions:**
 1.	Creemos que nuestros usuarios necesitan agilizar su forma de llevar tratamientos médicos hormonales a través de la telemedicina puesto que esta ha demostrado ser rentable en cuanto a costos de servicios y que ha permitido la disminución de los gastos de traslado y tiempo que tienen los pacientes.
 2.	Estas necesidades se pueden satisfacer con una plataforma que permita la comunicación y consulta de datos en la cual se pueda llevar el monitoreo y el acceso a una reunión medica sin la necesidad de pactar una cita presencial, lo cual agilizaría el seguimiento y tratamiento de enfermedades hormonales.
 3.	Nuestros clientes iniciales serán médicos especializados en endocrinología quienes desean que el tratamiento de sus pacientes sea lo más estable y eficaz posible. Lo que permita su agilización en tiempos de monitoreo tanto para ellos como sus pacientes.
@@ -236,7 +236,7 @@ Business Assumptions:
 11.	Lo resolveremos realizando una cuidadosa planificación y gestión de la capacidad de nuestros servidores y recursos informáticos, lo que nos permitirá ajustar dinámicamente la capacidad del sistema según la demanda.
 12.	Otras suposiciones podrían incluir la adaptación de nuestra estrategia empresarial según sea necesario para responder a cambios inesperados en el entorno médico.
 
-User Assumptions:
+**User Assumptions:**
 1.	¿Quien es el usuario?
 Los médicos endocrinólogos son los principales suscriptores de nuestro servicio. Además, los pacientes son añadidos a los registros por los propios médicos sin incurrir en una suscripción. Sin embargo, los pacientes también tendrán su propia interfaz para mantener el contacto durante el tratamiento de sus enfermedades hormonales.
 2.	¿Qué problemas tiene nuestro producto?
@@ -263,10 +263,29 @@ Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como méd
 
 ##### 1.2.1.4.	Lean UX Canvas.
 
+<img src="images/leanUxCanva.png" width="1600" height="900" alt="LeanUXCanvas">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
-https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305
+[https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305)](https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305)
+
 
 ## 1.3.	Segmentos objetivo.
 Pacientes con enfermedades hormonales en Lima: 
@@ -274,110 +293,4 @@ Este grupo enfrenta numerosos obstáculos en el manejo de sus condiciones médic
 Profesionales de la salud (endocrinólogos):
 
 Los médicos endocrinólogos en Lima se enfrentan a desafíos significativos en el manejo de pacientes con enfermedades hormonales. Con una preocupante escasez de especialistas en esta área y una alta demanda, su labor se ve obstaculizada por la sobrecarga de trabajo, la falta de herramientas para un seguimiento eficaz y las dificultades para coordinar ajustes oportunos en los tratamientos. Necesitan soluciones innovadoras que optimicen su tiempo, faciliten el monitoreo remoto de pacientes, mejoren la comunicación con otros profesionales de la salud involucrados y les permitan brindar una atención más personalizada y coordinada.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### 1.2.2.	Lean UX Process.
-   ##### 1.2.2.1.	Lean UX Problem Statements.
-   
-En Lima, Perú, hemos observado que las enfermedades hormonales representan un desafío de salud pública marcado por la inequidad en el acceso a servicios especializados, la escasez de médicos capacitados y la baja adherencia al tratamiento. Según Abramo et al. (2020), la falta de acceso oportuno a atención médica especializada, exacerbada por la ausencia de telemedicina y la escasez de infraestructura tecnológica, produce un aumento del riesgo de complicaciones en enfermedades crónicas. 
-
-Esta situación se refleja en la dificultad para realizar seguimientos adecuados de enfermedades y en la falta de educación para el autocuidado de los pacientes, lo que resulta en una mayor incidencia de hospitalizaciones y un incremento en los costos de salud (Ocronos, 2023). Además, se ve agravada por los largos tiempos de espera para consultas médicas (INEI, 2014), junto con la falta de médicos endocrinólogos, como lo señala Manrique (2015). Esto en medio de un aumento alarmante en el porcentaje de población con enfermedades hormonales, según datos del INEI (2020). 
-
-La pregunta que guía nuestro proyecto es: ¿Cómo puede una aplicación web superar las barreras tecnológicas, económicas y sociales con el fin de promover una gestión eficiente del registro, seguimiento y agilizar el proceso de tratamiento para pacientes con enfermedades hormonales en Lima, Perú?
-
-
-
-
-
-
-
-
-
-
-
-
-   ##### 1.2.2.3.	Lean UX Hypothesis Statements. 
-
-1. Creemos que, al desarrollar una aplicación que permita una gestión eficiente y eficaz de los registros médicos, un seguimiento de los niveles hormonales y una comunicación fluida entre los profesionales de la salud involucrados en el tratamiento de pacientes con enfermedades hormonales en Lima, podremos reducir significativamente los tiempos de espera para obtener atención médica especializada. Sabremos que hemos tenido éxito, cuando observemos una disminución sustancial en los tiempos de espera reportados por los usuarios de nuestra aplicación en comparación con los datos previos a su implementación.
-
-2. Creemos que. al digitalizar los registros médicos y facilitar una comunicación inmediata entre los profesionales de la salud, podremos mejorar la eficiencia en el proceso de atención médica de pacientes con enfermedades hormonales en Lima, reduciendo así la carga de trabajo y optimizando los recursos disponibles. Sabremos que hemos tenido éxito, cuando observemos una mejora en la eficiencia del proceso de atención médica para pacientes con enfermedades hormonales, medida a través de la reducción de quejas relacionadas con tiempos de espera y la optimización del flujo de trabajo de los profesionales de la salud.
-
-3. Creemos que, al ofrecer una herramienta tecnológica que facilite el ajuste de tratamientos, reduzca los tiempos de traslado y mejore la coordinación entre profesionales de la salud, lograremos incrementar la adherencia al tratamiento y el cumplimiento de los objetivos terapéuticos por parte de los pacientes con enfermedades hormonales en Lima. Sabremos que hemos tenido éxito, cuando observemos un aumento notable en la adherencia al tratamiento y el cumplimiento de los objetivos terapéuticos por parte de los pacientes que utilicen nuestra aplicación en comparación con aquellos que no lo hacen.
-
-4. Creemos que, al ofrecer una plataforma que permita una gestión centralizada de los registros médicos y una coordinación más efectiva entre los diferentes especialistas involucrados en el tratamiento de enfermedades hormonales, podremos mejorar la calidad de vida de los pacientes al garantizar una atención más integral y personalizada. Sabremos que hemos tenido éxito, cuando observemos una mejora en la percepción de la calidad de vida de los pacientes con enfermedades hormonales, evaluada a través de encuestas de satisfacción y testimonios positivos que reflejen una experiencia de atención médica más satisfactoria y efectiva.
-
-
 
