@@ -94,6 +94,14 @@ Ciclo 2024-01
 | Qué tal, soy Jherson Astuyauri. Tengo 19 años, curso el quinto ciclo de la carrera de Ingeniería de Software. Escogí la carrera porque me interesan los efectos de la tecnología en la vida de las personas. Ahora mismo me gusta la inteligencia artificial, jugar videojuegos, ver series de anime, nadar y aprender sobre finanzas. Mis conocimientos técnicos con los que puedo contribuir al equipo son los que he adquirido a lo largo de mi estancia en la universidad. Además, considero que tengo una actitud proactiva y responsabilidad para cumplir con las tareas.  | 
 
 
+#### 1.1.2. Perfiles de integrantes del equipo
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **LUIS SEBASTIAN CHINCHIHUALPA SALDARRIAGA** | <img src="images/perfilLuis.jpg" width="700" height="150" alt="Luis Chinchihualpa">                                                 |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U202212112**              |                                                              |
+| Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el quinto ciclo. Sé programar en C++, Java y un poco de Python. Me considero una persona muy responsable, exigente y trabajadora. En el grupo del proyecto puedo aportar con mis conocimientos adquiridos en los cursos de Especificación y Análisis de Requerimientos, Algoritmos y Estructuras de Datos y Diseño y Patrones de Software.  | 
+
 
 
 
