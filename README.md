@@ -136,7 +136,7 @@ Logo del producto:
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
-| **CLAUDIO SANDRO QUISPESIVANA TORRES** | <img src="images/perfilLuis.jpg" width="700" height="150" alt="Sandro Quispesivana">                                                    |
+| **CLAUDIO SANDRO QUISPESIVANA TORRES** | <img src="images/Sandroimagen.png" width="700" height="150" alt="Sandro Quispesivana">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202215099**              |                                                              |
 | Buenas, soy Sandro Quispesivana. Tengo 19 años, actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software. Podría decir que los conocimientos que mejor se me dan son la programación orientada a objetos para muchos tipos de lenguajes, mi agilidad en la creación de base de datos, el uso de herramientas para el desarrollo de FrontEnd como lo puede ser HTML, CSS y un poco de JavaScript, y capaz mi enfoque empresarial de querer nutrir en una gran variedad de mercados y marcar un antes y un después. Las habilidades que me más me representan son la responsabilidad y el ingenio que me nace en problemas serios.  | 
