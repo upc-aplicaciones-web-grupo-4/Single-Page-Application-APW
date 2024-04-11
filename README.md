@@ -263,7 +263,7 @@ Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como méd
 
 ##### 1.2.1.4.	Lean UX Canvas.
 
-<img src="images/leanUxCanva.png" width="1600" height="700" alt="LeanUXCanvas">
+<img src="images/leanUxCanva.png" width="1600" height="600" alt="LeanUXCanvas">
 
 
 
