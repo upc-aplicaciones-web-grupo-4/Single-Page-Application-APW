@@ -17,7 +17,7 @@ Ciclo 2024-01
 
 **Sección:** SW53
 
-**Profesor**: Alex Ponce
+**Profesor**: Alex Humberto Sánchez Ponce
 
 **StartUp Name**: 
 
