@@ -167,7 +167,7 @@ Logo del producto:
 |-----------------------------|--------------------------------------------------------------|
 | **HERNAN EMILIO MORALES CALDERON** | <img src="images/perfilHernan.jpeg" width="700" height="150" alt="Hernán Morales">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U202216263***|                                                              |
+| **U202216263**|                                                              |
 | Soy Hernan Morales, tengo 19 años, curso el quinto ciclo de la carrera de Ingeniería de Software. Escogí la carrera por que me encanta el mundo de la tecnología y la creación de proyectos. Actualmente estoy interesado en la creación de páginas web, en el baloncesto competitivo y en las ventas virtuales. Mis conocimientos técnicos con los que puedo contribuir al equipo son los que he adquirido a lo largo de mi estancia en la universidad. Además, considero que tengo una actitud proactiva y me puedo adaptar a cualquier situacion.  |
 
 
