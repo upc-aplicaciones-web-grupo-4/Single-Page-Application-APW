@@ -133,6 +133,8 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
 
 ### 3.3. Impact Mapping.
 
+<img src="image/impac mapping" alt="impac mapping">
+
 ### 3.4. Product Backlog.
 Para elaborar nuestro product backlog hemos utilizado la escala Fibonacci (1,2,3,5…). Además, la Historia de usuario base elegida por el grupo es US016, ya que como grupo consideramos que su nivel de complejidad, frecuencia y riesgo son intermedios.
 
