@@ -286,9 +286,17 @@ Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?
 
 ### 4.5.      Web Applications Prototyping.
 
+#### Prototipos de UI para Desktop:
+<img src="images/Web Applications Mock-ups.png">
+
+
+#### Prototipos de UI para Mobile Web Browser:
+
+<img src="images/mobile.png">
 
 
 
+Link: <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1>
 
 ### 4.6.      Domain-Driven Software Architecture.
 #### 4.6.1.   Software Architecture Context Diagram.
