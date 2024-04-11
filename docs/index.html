@@ -1,0 +1,130 @@
+<!--Sandro html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HormonalCare</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="assets/scripts/script.js"></script>
+    
+</head>
+<body>
+    <!--Barra de navegación-->
+    <section class="nav-barbar-grande">
+    <nav class="navbar">
+        <div class="logo">
+          <img src="assets/images/HormonalCareLogo.png" alt="HormonalCareLogo" />
+          <span> <a href="index.html"> HormonalCare</a></span>
+        </div>
+        <button class="hamburger-icon" onclick="toggleNav()">☰</button>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#swipersection" class="nav-link"> Features</a></li>
+          <li class="nav-item"><a href="#plans-section" class="nav-link"> Pricing</a></li>
+          <li class="nav-item"><a href="#sectioncontactus" class="nav-link"> Contact us</a></li>
+          <li class="nav-item"><a href="#more-information" class="nav-link"> About us</a></li>
+        </ul>
+        <div class="auth">
+          <button class="login-button">Log in</button>
+          <button class="signup-button">Sign up</button>
+        </div>
+    </nav>
+    </section>
+
+    <!--Sección principal -->
+
+    <section id="main" class = "main">
+        <div class="main-image">
+            <img src="assets/images/WelcomToHormonalCare.png" alt="WelcomToHormonalCare" />
+        </div>
+    </section>
+
+    <!--Beneficios(features)-->
+    <section id= "swipersection" class="swipersection">
+        <div class="Titleswiper">
+            <h1>Features</h1>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper swiper-hero">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="assets/images/Feature1.png"
+                        alt=""
+                    />
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/Feature2.png"
+                        alt=""
+                    />
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/Feature3.png"
+                        alt=""
+                    />
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/Feature4.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    
+    </section>
+    <!--Planes(pricing)-->
+
+    <section id="plans-section" class="plans-section">
+        <h1>Pricing </s></h1>
+        <p class="description">You can choose the plan that best suits your needs. HormonalCare has three subscription plans and offers a free trial.</p>
+        <div class="plans-container">
+        
+          <!-- Plan Básico -->
+          <div class="plan-card basic">
+            <h2>Basic</h2>
+            <p class="price">S/10 <span>/month</span></p>
+            <p class="plan-description">Perfect for the beginers</p>
+            <ul class="plan-features">
+              <li>Register up to 5 patients</li>
+
+            </ul>
+            <button class="plan-button-basic">Suscribe</button>
+          </div>
+          
+          <!-- Plan Regular -->
+          <div class="plan-card regular featured">
+            <h2>Regular</h2>
+            <p class="price">S/30.00 <span>/month</span></p>
+            <p class="plan-description">The most popular</p>
+            <ul class="plan-features-regular">
+              <li>Register up to 25 patients</li>
+              
+            </ul>
+            <button class="plan-button-regular">Suscribe</button>
+          </div>
+          
+          <!-- Plan Premium -->
+          <div class="plan-card premium">
+            <h2>Premium</h2>
+            <p class="price">S/80.00 <span>/month</span></p>
+            <p class="plan-description">The best for the profesionals</p>
+            <ul class="plan-features">
+              <li>Register up to ilimitado patients</li>
+              
+            </ul>
+            <button class="plan-button-premium">Suscribe</button>
+          </div>
+        </div>
+    </section>
