@@ -49,6 +49,7 @@ Nuestra misión es simple pero poderosa: transformar la forma en que se realizan
 
 
 Logo del Startup: 
+<div align="center">
 
 
 
@@ -62,10 +63,10 @@ Logo del Startup:
 
 
 
-
-<img src="images/imagen1.jpg" width="500" height="500" alt="logoEmpresa">    
- 
+<img src="images/imagen1.jpg" width="200" height="200" alt="logoEmpresa">    
+ </div>
 Logo del producto:
+<div align="center">
 
 
 
@@ -80,9 +81,8 @@ Logo del producto:
 
 
 
-
-<img src="images/image.png" width="500" height="500" alt="logoAplicacion">    
- 
+<img src="images/image.png" width="200" height="200" alt="logoAplicacion">    
+ </div> 
 
 
 
