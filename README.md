@@ -215,7 +215,9 @@ Propone un seguimiento remoto para reducir la necesidad de citas presenciales, e
 
 
 ***Paciente 3:***
-
+|<p>**Datos del paciente:** </p><p> </p><p>Nombres: Jeremy</p><p>Apellidos: Quispe</p><p>Edad: 19 años. </p><p>Distrito: SJL, Lima. </p><p> </p>|<p>![](Aspose.Words.4005d044-31a7-44ad-8145-b08eeaf1f1f2.005.png)</p><p> </p><p>[https://youtu.be/adhnrCdaTU4<br>` `](https://youtu.be/adhnrCdaTU4)</p>|
+| - | - |
+|<p>Resumen:  </p><p>El entrevistado es un hombre con hipertiroidismo diagnosticada hace aproximadamente 2 años. Enfrenta desafíos con los cambios constantes en sus niveles hormonales, que afectan su estado de ánimo y energía, y la dificultad de ajustar la medicación para controlar síntomas como ansiedad y fatiga. Visita a su endocrinólogo cada 3 meses. A veces le resulta complicado cumplir con el tratamiento debido a efectos secundarios y la interferencia de la rutina diaria. Le gustaría un sistema de recordatorios más efectivo y acceso a recursos educativos sobre su enfermedad. Ha tenido experiencias frustrantes con largos tiempos de espera y comunicación limitada con su médico. Utilizaría una aplicación móvil para llevar un registro médico y comunicarse con su médico, destacando la importancia de una interfaz fácil de usar, recordatorios personalizables y comunicación segura. Prefiere recibir notificaciones en su teléfono móvil y compartir información relevante con su médico a través de la aplicación. Se sentiría más segura con la posibilidad de comunicarse remotamente con su médico y cree que una aplicación mejoraría significativamente su calidad de vida y control sobre su enfermedad hormonal. </p><p></p>||
 
 
 #### 2.2.3.  Análisis de entrevistas.
