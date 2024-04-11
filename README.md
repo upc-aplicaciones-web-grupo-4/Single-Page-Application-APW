@@ -175,7 +175,7 @@ Utilizamos el servicio GitHub Pages para desplegar la landing page de HormonalCa
 </table>
 
 Además, se incluye en la herramienta recomendada que es Trello.
-
+<img src="images/trellosprint.png" alt="Logo UPC">
 ![](Aspose.Words.7c36b888-f087-49fb-b41f-b7c953698ffb.001.png)
 #### <a name="_toc163674911"></a>Enlace: <https://trello.com/invite/b/H8Ifc2ko/ATTIf05ba6e9b91d336c0560f121fd1002790D3D9927/sprint-1-hormonalcare>
 ####
