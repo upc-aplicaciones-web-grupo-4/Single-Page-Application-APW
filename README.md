@@ -19,7 +19,7 @@ Ciclo 2024-01
 
 **Profesor**: Alex Humberto Sánchez Ponce
 
-**StartUp Name**: 
+**StartUp Name**: NinjaCode
 
 **Producto**: 
 
