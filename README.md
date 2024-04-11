@@ -145,7 +145,7 @@ Utilizamos el servicio GitHub Pages para desplegar la landing page de HormonalCa
 |Time|9:00|
 |Location|Reunión realizada mediante Discord|
 |Prepared By|Astuyauri Calderon Jherson David|
-|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lobato Pozo Sebastian Valente/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
+|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Hernan Emilio Morales Calderon/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
 |**Sprint Goal & User Stories**||
 |Sprint 1 Goal|Organizar las secciones asignadas a cada uno para implementar la Landing Page.|
 |Sprint 1 Velocity|15|
