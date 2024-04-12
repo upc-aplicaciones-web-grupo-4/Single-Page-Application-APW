@@ -360,12 +360,12 @@ Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?
 [Enlace](https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef)
 
 
-
-### <a name="_toc163674897"></a>4.7.1.   Class Diagrams.
+### 4.7.     Software Object-Oriented Design.
+### 4.7.1.   Class Diagrams.
 ![](images/ClassDiagrams.png)
 
 Link: <https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?viewport_loc=-7598%2C-884%2C3976%2C2123%2C0_0&invitationId=inv_34e168e9-90db-4b20-9ca7-1c81ca7a0310>
-### <a name="_toc163674898"></a>4.7.2.   Class Dictionary.
+### 4.7.2.   Class Dictionary.
 
 |Class|Description|
 | :- | :- |
@@ -392,8 +392,8 @@ Link: <https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?vi
 |Yape|La clase Yape maneja las transacciones realizadas a través del servicio de pagos Yape. Contiene un identificador único de transacción y un código de transacción asociado. Proporciona métodos para gestionar y visualizar datos relacionados con transacciones Yape.|
 |Plin|Esta clase gestiona las transacciones realizadas a través del servicio de pagos Plin. Almacena un identificador único de transacción y un código asociado. Ofrece funcionalidades para manejar y consultar datos de transacciones Plin en la aplicación.|
 
-## <a name="_toc163674899"></a>4.8.      Database Design.
-### <a name="_toc163674900"></a>4.8.1.   Database Diagram.
+## 4.8.      Database Design.
+### 4.8.1.   Database Diagram.
 
 ![](images/DatabaseDiagram.png)
 
