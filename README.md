@@ -360,7 +360,7 @@ Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?
 [Enlace](https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef)
 
 
-### 4.7.     Software Object-Oriented Design.
+## 4.7.     Software Object-Oriented Design.
 ### 4.7.1.   Class Diagrams.
 ![](images/ClassDiagrams.png)
 
