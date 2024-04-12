@@ -366,6 +366,23 @@ La creación de User Personas es una práctica fundamental para comprender las n
 
 
 
+### 2.3.2.   **User Task Matrix.** 
+
+|**Task Matrix**|**Dr. Luis Chinchihualpa<br><br>Frecuencia    Importancia**|**Dr. Ricardo Durand<br><br>Frecuencia    Importancia**|**Dra. Roxana<br><br>Frecuencia    Importancia**|<p>**Joaquin Benavides**</p><p><br>**Frecuencia    Importancia**</p>|**Arnold Castrejón<br><br>Frecuencia    Importancia**|**Jeremy Quispe<br><br>Frecuencia    Importancia**||
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :- |
+|**Enfrentan problemas de logística.**|A veces Alta|A veces Alta|A veces Alta|A veces Alta|A veces Alta|A veces Alta||
+|**Registrar información médica personal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta||
+|**Reservar una cita médica.**|A veces Alta|A veces Alta|A veces Alta|A veces Media|A veces Media|A veces Media||
+|**Anotar los horarios (citas y receta medica).**|Siempre Media|Siempre Media|Siempre Media|Siempre Media|Siempre Media|Siempre Media||
+|**Realizar seguimiento de la enfermedad hormonal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Media|Siempre Alta|Siempre Alta||
+|**Acceder a información médica personal.**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Alta||
+|**Analizar resultados de seguimiento.**|A veces Alta|Siempre Alta|Siempre Alta|A veces Baja|Siempre Media|Siempre Media||
+|**Presentar resultado de los exámenes.**|A veces Alta|A veces Alta|A veces Alta|A veces Media|A veces Alta|A veces Alta||
+|**Seguir una receta medica**|Siempre Alta|Siempre Alta|Siempre Alta|Siempre Media|Siempre Alta|Siempre Alta||
+
+
+
+
 #### 2.3.3.   User Journey Mapping.
 **User persona: Paciente**
 Este User Journey Map sigue el viaje de un paciente que busca mejorar la gestión de su tratamiento hormonal a través de una aplicación especializada. Desde el descubrimiento de la aplicación hasta el seguimiento remoto de su progreso, exploraremos las experiencias, expectativas y desafíos que enfrenta el paciente a lo largo de su viaje para una atención médica más efectiva y personalizada.
