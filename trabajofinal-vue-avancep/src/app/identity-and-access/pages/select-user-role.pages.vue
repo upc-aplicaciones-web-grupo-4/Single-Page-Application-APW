@@ -1,6 +1,8 @@
+
 <script setup>
 import Card from 'primevue/card';
 import Toolbar from "primevue/toolbar";
+
 </script>
 
 <template>
@@ -18,21 +20,29 @@ import Toolbar from "primevue/toolbar";
       <div class="userCards">
         <Card title="Patient" class="patientCard">
           <template #content>
-            <h1 class="patientTitle">Patient</h1>
-            <div class="circle">
-              <img src="@/assets/images/patient-icon.png" alt="Patient icon" style="width: 100px; height: 100px; margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
-            </div>
+            <router-link to="/patient-header">
+              <h1 class="patientTitle">Patient</h1>
+              <div class="circle">
+                <img src="@/assets/images/patient-icon.png" alt="Patient icon" style="width: 100px; height: 100px; margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
+              </div>
+            </router-link>
+
           </template>
         </Card>
         <Card title="Doctor" class="endocrinologistCard">
           <template #content>
-            <h1 class="endocrinologistTitle">Endocrinologist</h1>
-            <div class="circle">
-              <img src="@/assets/images/doctor-icon.png" alt="Patient icon" style="width: 100px; height: 100px; margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
-            </div>
+            <router-link to="/doctor-header">
+              <h1 class="endocrinologistTitle">Endocrinologist</h1>
+              <div class="circle">
+                <img src="@/assets/images/doctor-icon.png" alt="Patient icon" style="width: 100px; height: 100px; margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
+              </div>
+            </router-link>
           </template>
         </Card>
       </div>
+
+      <div><router-view></router-view></div>
+
     </div>
   </div>
 </template>

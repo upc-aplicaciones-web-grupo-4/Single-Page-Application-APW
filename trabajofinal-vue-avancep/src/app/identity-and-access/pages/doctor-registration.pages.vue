@@ -1,6 +1,5 @@
-<script setup>
-import Toolbar from "primevue/toolbar";
-import button from "primevue/button";
+<script >
+
 </script>
 
 <template>

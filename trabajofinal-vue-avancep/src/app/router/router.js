@@ -6,7 +6,8 @@ import NotificationsView from '../notifications/pages/notifications-view.pages.v
 import DoctorProfile from '../profiles/pages/doctor-profile/doctor-profile.pages.vue';
 import HomeDoctor from '../profiles/pages/doctor-profile/home-doctor.pages.vue';
 import PageNotFound from '../shared/pages/page-not-found/page-not-found.pages.vue';
-
+import DoctorHeader from '../shared/pages/header-doctor/header-doctor.pages.vue';
+import PatientHeader from '../shared/pages/header-patient/header-patient.pages.vue';
 const router = createRouter({
     history: createWebHistory(),
     routes:[
@@ -14,6 +15,9 @@ const router = createRouter({
         { path: '/calendar', component: CalendarView },
         { path: '/messages', component: DoctorChat },
         { path: '/notifications', component: NotificationsView },
+        { path: '/doctorProfile', component: DoctorProfile },
+        { path: '/doctor-header', component: DoctorHeader},
+        { path: '/patient-header', component: PatientHeader},
         { path: '/doctorProfile', component: DoctorProfile },
         { path: '/', redirect: '/homeDoctor' },
         { path: '/:catchAll(.*)', component: PageNotFound }
