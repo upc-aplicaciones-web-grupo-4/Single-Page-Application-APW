@@ -71,8 +71,8 @@ import button from "primevue/button";
     background-color: rgba(167, 138, 171, 1);
     color: white;
     position: fixed;
-    z-index: 1000; /* Z-index más alto para el Toolbar */
-    font-family: "Comic Sans", sans-serif; /* Cambia 'Arial' a la fuente que desees */
+    z-index: 1000;
+    font-family: "Comic Sans", sans-serif;
     font-weight: lighter;
     font-size: 20px;
     top: 0;
@@ -104,14 +104,14 @@ import button from "primevue/button";
     background-size: cover;
     background-position: center center;
     position: absolute;
-    font-family: "Comic Sans", sans-serif; /* Cambia 'Arial' a la fuente que desees */
+    font-family: "Comic Sans", sans-serif;
     font-weight: lighter;
     font-size: 20px;
     top: 100px;
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 0; /* Z-index más bajo para la imagen de fondo */
+    z-index: 0;
   }
   .formAndimg{
     height:80%;
@@ -129,7 +129,7 @@ import button from "primevue/button";
     align-items: center;
     flex-direction: column;
     width: 60%;
-    height: 90%;  /* Cambia esto a la altura que desees */
+    height: 90%;
   }
 
   form {
@@ -141,7 +141,7 @@ import button from "primevue/button";
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 35px;
-    width: 80%;  /* Cambia esto a la anchura que desees */
+    width: 80%;
     height: 600px;
   }
 
@@ -166,7 +166,7 @@ import button from "primevue/button";
   .fname input, .lname input, .age input, .mail input, .password input, .qualific input, .schoolNo input {
     flex: 2;
     border-radius: 7px;
-    border: none; /* Ajusta este valor al grosor de borde que desees */
+    border: none;
     padding: 3px 10px 3px 10px;
     height:80%;
 
@@ -201,11 +201,11 @@ import button from "primevue/button";
 
   #customButton {
     width: 400px;
-    height: 350px;  /* Cambia esto a la altura que desees */
-    background: url('/defaultImage.png') no-repeat;  /* Asegúrate de cambiar 'path/to/your/image.png' a la ruta de tu imagen */
-    background-size: cover;  /* Esto hará que la imagen cubra todo el botón */
-    border: none;  /* Esto eliminará el borde predeterminado del botón */
-    color: transparent;  /* Esto hará que el texto del botón sea transparente */
+    height: 350px;
+    background: url('@/assets/images/default-image.png') no-repeat;
+    background-size: cover;
+    border: none;
+    color: transparent;
   }
 
 .buttonDiv {
