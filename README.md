@@ -36,7 +36,184 @@ Ciclo 2024-01
 <br>
 </div>
 
+## Project Report Collaboration Insights
+Enlace del Project Report: https://github.com/upc-aplicaciones-web-grupo-4/upc-pre-202401-si730-sw53-grupo4-report-tb1/blob/main/README.md
 
+<div  align="center">
+<img src="images/GeneralCommits.png">
+</div>
+
+
+
+## Contenido
+
+### [Registro de versiones](#)
+
+### [Contenido](#)
+
+### [STUDENT OUTCOME](#)
+
+### [Capítulo I: Introducción](#)
+
+[1.1.	Startup Profile](#)
+
+[1.1.1.	Descripción de la Startup](#)
+
+[1.1.2.	Perfiles de integrantes del equipo](#)
+
+[1.2.	Solution Profile](#)
+
+[1.2.1.	Antecedentes y problemática](#)
+
+[1.2.2.	Lean UX Process](#)
+
+[1.2.2.1.	Lean UX Problem Statements](#)
+
+[1.2.2.2.	Lean UX Assumptions](#)
+
+[1.2.2.3.	Lean UX Hypothesis Statements](#)
+
+[1.2.2.4.	Lean UX Canvas](#)
+
+[1.3.	Segmentos objetivo](#)
+
+### [Capítulo II: Requirements Elicitation & Analysis](#)
+
+[2.1. Competidores](#)
+
+[2.1.1. Análisis competitivo](#)
+
+[2.1.2. Estrategias y tácticas frente a competidores](#)
+
+[2.2. Entrevistas](#)
+
+[2.2.1.   Diseño de entrevistas](#)
+
+[2.2.2.   Registro de entrevistas](#)
+
+[2.2.3.   Análisis de entrevistas](#)
+
+[2.3.      Needfinding](#)
+
+[2.3.1.   User Personas](#)
+
+[2.3.2.   User Task Matrix](#)
+
+[2.3.3.   User Journey Mapping](#)
+
+[2.3.4.   Empathy Mapping](#)
+
+[2.3.5.   As-is Scenario Mapping](#)
+
+[2.4.      Ubiquitous Language](#)
+
+### [Capítulo III: Requirements Specification](#)
+
+[3.1. To-Be Scenario Mapping](#)
+
+[3.2. User Stories](#)
+
+[3.3. Impact Mapping](#)
+
+[3.4. Product Backlog](#)
+
+### [Capítulo IV: Product Design](#)
+
+[4.1.      Style Guidelines](#)
+
+[4.1.1.   General Style Guidelines](#)
+
+[4.1.2.	Web Style Guidelines](#)
+
+[4.2.      Information Architecture](#)
+
+[4.2.1.   Organization Systems](#)
+
+[4.2.2.   Labeling Systems](#)
+
+[4.2.3.   SEO Tags and Meta Tags](#)
+
+[4.2.4.   Searching Systems](#)
+
+[4.2.5.   Navigation Systems](#)
+
+[4.3.      Landing Page UI Design](#)
+
+[4.3.1.   Landing Page Wireframe](#)
+
+[4.3.2.   Landing Page Mock-up.V1.0](#)
+
+[4.4.      Web Applications UX/UI Design](#)
+
+[4.4.1.   Web Applications Wireframes](#)
+
+[4.4.2.   Web Applications Wireflow Diagrams](#)
+
+[4.4.3.   Web Applications Mock-ups](#)
+
+[4.4.4.   Web Applications User Flow Diagrams](#)
+
+[4.5.      Web Applications Prototyping](#)
+
+[4.6.      Domain-Driven Software Architecture](#)
+
+[4.6.1.   Software Architecture Context Diagram](#)
+
+[4.6.2.   Software Architecture Container Diagrams](#)
+
+[4.6.3.   Software Architecture Components Diagrams](#)
+
+[4.7.      Software Object-Oriented Design](#)
+
+[4.7.1.   Class Diagrams](#)
+
+[4.7.2.   Class Dictionary](#)
+
+[4.8.      Database Design](#)
+
+[4.8.1.   Database Diagram](#)
+
+
+### [Capítulo V: Product Implementation, Validation & Deployment](#)
+
+[5.1.      Software Configuration Management](#)
+
+[5.1.1.   Software Development Environment Configuration](#)
+
+[5.1.2.   Source Code Management](#)
+
+[5.1.3.   Source Code Style Guide & Conventions](#)
+
+[5.1.4.   Software Deployment Configuration](#)
+
+[5.2.	Landing Page, Services & Applications Implementation](#)
+
+[5.2.1.   Sprint 1](#)
+
+[5.2.1.1. Sprint Planning 1](#)
+
+[5.2.1.2. Sprint Backlog 1](#)
+
+[5.2.1.3.	Development Evidence for Sprint Review](#)
+
+[5.2.1.4.	Testing Suite Evidence for Sprint Review](#)
+
+[5.2.1.5.	Execution Evidence for Sprint Review](#)
+
+[5.2.1.6.	Services Documentation Evidence for Sprint Review](#)
+
+[5.2.1.7.	Software Deployment Evidence for Sprint Review](#)
+
+[5.2.1.8.	Team Collaboration Insights during Sprint](#)
+
+[Conclusiones y recomendaciones](#)
+
+[Bibliografía](#)
+
+[Anexos](#)
+
+
+## STUDENT OUTCOME 
 
 =======
 ## CAPÍTULO I: INTRODUCCIÓN
@@ -561,6 +738,17 @@ Este User Journey Map sigue el viaje de un médico endocrinólogo que integra un
 [Enlace Customer journey map medico](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/ETzIplWry45GpxiDIa5cCrkB4mnJmWMK7207a6WB_jAnnA?e=0eRKCh)
 
 
+#### 2.3.4.   Empathy Mapping.
+
+**Paciente:**
+
+<img src="images/empathyPaciente.png">
+
+**Médico:**
+
+<img src="images/emphatyMedico.png">
+
+
 #### 2.3.5.   As-is Scenario Mapping.
 El proceso de elaboración del As Is scenario mapping para nuestros dos segmentos objetivos implicó una detallada preparación, incluyendo la definición de objetivos, la identificación de stakeholders y la recopilación de datos relevantes sobre el proceso actual de atención médica. Luego, mediante una lluvia de ideas individual, cada miembro del equipo identificó aspectos positivos, negativos y áreas de mejora en el proceso. Estos hallazgos se revisaron y se identificaron las fases clave del proceso como columnas en el mapa. Posteriormente, se elaboró el mapa "As Is” en la herramienta indicada para cada User Persona.
 **User Persona: Paciente**
@@ -837,15 +1025,23 @@ Para el desarrollo de la aplicación "HormonalCare", estableceremos primero las 
 
 #### 4.2.2.   Labeling Systems.
 
-Hemos realizado un análisis exhaustivo de la funcionalidad y los elementos clave de nuestra plataforma "HormonalCare", con el objetivo de establecer un sistema de etiquetado eficiente. Mediante este proceso, hemos identificado las siguientes etiquetas esenciales: 
+#### Landing Page
+| Etiqueta | Descripcion | 
+|----------|----------|
+| Features | En esta etiqueta se muestran todas las funcionalidades y características de nuestra aplicación.    | 
+| Pricing     | En este apartado, se muestran cuáles son los planes que nuestra aplicación maneja, se muestran sus precios y características.    | 
+| Contact Us     | Esta etiqueta, se muestra el interfaz de inicio de sesión para que el usuario pueda ingresar a la aplicación.   |
 
-Perfil del Paciente: Esta etiqueta proporciona acceso al perfil personal de cada paciente, donde pueden ver y editar su información personal, así como su historial médico y los registros de seguimiento de su enfermedad hormonal. 
+#### Aplicación
+| Etiqueta | Descripcion | 
+|----------|----------|
+| Perfil del usuario  | Esta etiqueta proporciona acceso al perfil personal, donde pueden ver y editar su información personal, así     | 
+| Notificaciones y Recordatorios      | En esta etiqueta se encuentran las notificaciones importantes para los pacientes, como recordatorios de citas médicas, alertas de medicación y avisos sobre cambios en el tratamiento.     | 
+| Inicio      | En esta etiqueta, se muestra la interfaz principal del usuario, de forma customizada, para atender sus necesidades dependiendo de que tipo de usuario sea. Esta etiqueta se muestra al iniciar sesión.    |
+| Medicos disponibles       | En esta sección se muestra los médicos disponibles para el usuario paciente.     |
+| Calendario        | En esta sección se muestra un calendario con la información relevante personalizada para cada tipo de usuario.      |
+| Mensajes         | En esta sección se muestran los mensajes entre los usuarios de la aplicación.      |
 
-Consultas Médicas: Aquí se agrupan todas las funciones relacionadas con las consultas médicas, como la programación de citas, la realización de consultas virtuales, el acceso a recetas médicas y la comunicación con el médico. 
-
-Notificaciones y Recordatorios: En esta etiqueta se encuentran las notificaciones importantes para los pacientes, como recordatorios de citas médicas, alertas de medicación y avisos sobre cambios en el tratamiento. 
-
-Configuración de la Cuenta: Esta categoría permite a los usuarios gestionar su cuenta, ajustar sus preferencias de privacidad, configurar notificaciones y actualizar su información personal. 
 
 #### 4.2.3.   SEO Tags and Meta Tags.
 
@@ -873,9 +1069,24 @@ Authors: NinjaCode
 
 #### 4.2.4.   Searching Systems.
 
-Para HormonalCare, un sistema de búsqueda podría permitir a médicos y pacientes encontrar rápidamente información relevante dentro de la aplicación. Aquí hay un ejemplo de cómo podría funcionar: 
+Para HormonalCare, un sistema de búsqueda podría permitir a médicos y pacientes encontrar rápidamente información relevante dentro de la aplicación. En el contexto de nuestro proyecto, contamos con dos diferentes métodos de búsqueda por tipo de usuario, estos son: 
 
-El sistema de búsqueda de HormonalCare proporcionaría a los usuarios la capacidad de buscar información específica dentro de la plataforma. Los médicos podrían buscar registros de pacientes por nombre, fecha o tipo de examen, facilitando el acceso a la información médica relevante de manera rápida y eficiente. Los pacientes, por otro lado, podrían buscar recursos educativos sobre enfermedades hormonales, consejos de autocuidado o respuestas a preguntas frecuentes. 
+**Usuario Paciente:** 
+
+Búsqueda de médicos disponibles: Los usuarios de tipo paciente, podrán buscar diferentes médicos que, atiendan a sus necesidades y preferencias, mediante el uso de filtros como: Rangos de precio, género y subespecialidades. 
+
+Calendario: El usuario podrá realizar una búsqueda de cuando tiene reunión, tomar su medicación o exámenes pendientes, mediante un filtrado de estos, el usuario podra seleccionar cuales quiere que se muestren en su calendario. 
+
+**Usuario Medico:** 
+
+Búsqueda de colegas: El medico podrá buscar colegas mediante una barra de búsqueda, introduciendo su correo electrónico o nombre. 
+
+Búsqueda de pacientes: Cuando se encuentre en su perfil principal, el médico mediante una barra de búsqueda, podrá buscar a sus pacientes de su portafolio mediante su nombre o correo electrónico. 
+
+Mensajería: El usuario podrá realizar la búsqueda de sus diferentes pacientes o colegas mediante la selección de estos por botones, donde se muestran sus nombres. 
+
+Información clínica: Al acceder a la información clínica del paciente, el medico podrá filtrar su información accediendo a diferentes interfaces donde se almacenan información del paciente. Esta información se accede mediante botones. 
+ 
 
 #### 4.2.5.   Navigation Systems.
 
@@ -982,7 +1193,8 @@ Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?
 #### 4.4.3.   Web Applications Mock-ups.
 
 <img src="images/Web Applications Mock-ups.png">
-FIGMA MOCKUPS : <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=h8H1YgqcxnDQa6Tr-1>
+
+FIGMA MOCKUPS : https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=h8H1YgqcxnDQa6Tr-1
 
 #### 4.4.4.   Web Applications User Flow Diagrams.
 
@@ -1021,70 +1233,70 @@ Link: <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 #### 4.6.1.   Software Architecture Context Diagram.
 **Diagrama de contexto:**
 <img src="images/context diagram.png">
-[Enlace](https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546)
+https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546
 
 #### 4.6.2.   Software Architecture Container Diagrams.
 **Diagrama de contenedores:**
 <img src="images/container diagram.png">
-[Enlace](https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1)
+https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1
 
 #### 4.6.3.   Software Architecture Components Diagrams.
 **API REST component diagram:**
 <img src="images/apirest component diagram1.png">
 <img src="images/apirest component diagram2.png">
-[Enlace](https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823 )
+https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823
 
 **Medical Appointment BC Component Diagram:**
 <img src="images/MedicalAppointment.png">
-[Enlace](https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b)
+https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b
 
 **Calendar BC Component Diagram:**
 <img src="images/calendar component diagram.png">
-[Enlace](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
+https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3
 
 **Treatment BC Component Diagram:**
 <img src="images/Treatment component diagram.png">
-[Enlace](https://structurizr.com/review/f060fa7a-2d88-43da-b738-1041950adfbc)
+https://structurizr.com/review/f060fa7a-2d88-43da-b738-1041950adfbc
 
 **Medication BC Component Diagram:**
 <img src="images/medication component diagram.png">
-[Enlace](https://structurizr.com/review/6f49bad3-8b77-42b6-bd1f-5bda48e6136e)
+https://structurizr.com/review/6f49bad3-8b77-42b6-bd1f-5bda48e6136e
 
 **History Medical BC Component Diagram:**
 <img src="images/History medical component diagram.png">
-[Enlace](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
+https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c
 
 **Notification BC Component Diagram:**
 <img src="images/notification component diagram.png">
-[Enlace](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
+https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8
 
 **Chat BC Component Diagram:**
 <img src="images/Chat component diagram.png">
-[Enlace](https://structurizr.com/review/27e55206-64bd-40b0-a8a0-a79388c9a7f0)
+https://structurizr.com/review/27e55206-64bd-40b0-a8a0-a79388c9a7f0
 
 **Patient Management BC Component Diagram:**
 <img src="images/patient management component diagram.png">
-[Enlace](https://structurizr.com/review/123c8a5d-0e2b-445b-8a79-a140039af699)
+https://structurizr.com/review/123c8a5d-0e2b-445b-8a79-a140039af699
 
 **Medical Management BC Component Diagram:**
 <img src="images/medical management component diagram.png">
-[Enlace](https://structurizr.com/review/505f0f0e-5694-4648-a0ba-37bc224de25f)
+https://structurizr.com/review/505f0f0e-5694-4648-a0ba-37bc224de25f
 
 **Subscription BC Component Diagram:**
 <img src="images/subscription component diagram.png">
-[Enlace](https://structurizr.com/review/f8e919ff-b38c-4a55-81ec-c5e5850a6e12)
+https://structurizr.com/review/f8e919ff-b38c-4a55-81ec-c5e5850a6e12
 
 **Payment BC Component Diagram:**
 <img src="images/payment component diagram.png">
-[Enlace](https://structurizr.com/review/b5241bc0-f716-4559-bb92-a1c4a5d40bfd)
+https://structurizr.com/review/b5241bc0-f716-4559-bb92-a1c4a5d40bfd
 
 **Search BC Component Diagram:**
 <img src="images/search component diagram.png">
-[Enlace](https://structurizr.com/review/5da99437-c234-4427-9107-c32b474e106e)
+https://structurizr.com/review/5da99437-c234-4427-9107-c32b474e106e
 
 **Safety BC Component Diagram:**
 <img src="images/safety component diagram.png">
-[Enlace](https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef)
+https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef
 
 
 ## 4.7.     Software Object-Oriented Design.
@@ -1149,7 +1361,7 @@ Link: https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742\_upc\_edu\_pe
 
 **Miro:** Utilizamos Miro como herramienta principal para la gestión de requisitos. En Miro, creamos mapas mentales y diagramas que ayudaron a visualizar y organizar los requisitos del proyecto, incluyendo características, funcionalidades y objetivos clave.
 
-
+**Lucidchart:** Además, utilizamos Lucidchart como herramienta para realizar diagramas y documentación.
 
 **Product UX/UI Design:** 
 
@@ -1183,7 +1395,7 @@ Link: https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742\_upc\_edu\_pe
 Para garantizar la eficiencia y evitar conflictos en el desarrollo de soluciones, los proyectos de NinjaCode se gestionaron en una organización de GitHub. Dentro de esta organización, se encuentran los repositorios correspondientes a cada proyecto. Aquí están los enlaces a los repositorios:
 
 **Landing page:**
-[https://github.com/upc-aplicaciones-web-grupo-4/LandingPageAppWeb](https://github.com/upc-aplicaciones-web-grupo-4/LandingPageAppWeb)
+https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/
 
 **Tests de Aceptación:**
 
@@ -1223,7 +1435,7 @@ Utilizamos el servicio GitHub Pages para desplegar la landing page de HormonalCa
 2.	Dentro del repositorio, accedimos a la pestaña de "Settings" y buscamos la sección denominada "Pages" en el menú lateral.
 3.	En la sección "Pages", seleccionamos la rama main desde la cual se desplegará la landing page.
 4.	Después de haber seleccionado la rama, confirmamos los cambios realizados, y GitHub realizo el proceso de despliegue de la landing page.
-5.	Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada (htt).
+5.	Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada (https://upc-aplicaciones-web-grupo-4.github.io/LandingPageAppWeb/).
 
 ### 5.2.	Landing Page, Services & Applications Implementation.
 
