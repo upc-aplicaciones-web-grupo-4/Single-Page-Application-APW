@@ -1,19 +1,32 @@
 <script>
 export default {
-  name: "footer-content"
+  name: "FooterContent"
 }
 </script>
 
 <template>
-  <div class="grid bg-primary mt-4 p-4 align-content-start">
-    <div class="col-12 ml-3 align-items-center justify-content-center">
+  <div class="footer">
+    <div class="content">
       <p>Copyright &copy; 2024. Ninja Code</p>
     </div>
   </div>
 </template>
 
 <style >
-.grid {
+.footer {
   background-color: #A788AB;
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 14px;
 }
 </style>

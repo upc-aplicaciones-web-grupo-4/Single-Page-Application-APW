@@ -4,12 +4,11 @@ import patientProfile from './app/profiles/pages/patient-profile/patient-profile
 import headerDoctor from './app/shared/pages/header-doctor/header-doctor.pages.vue';
 import FooterContent from "./app/shared/pages/footer-content/footer-content.pages.vue";
 import DoctorRegistration from "./app/identity-and-access/pages/doctor-registration.pages.vue";
-import SelectUserRole from "./app/identity-and-access/pages/select-user-role.pages.vue";
+
 
 export default {
   components: {
     DoctorRegistration,
-    SelectUserRole,
     FooterContent,
     homePatient,
     patientProfile,
@@ -17,17 +16,22 @@ export default {
   }
 };
 
+
 </script>
 
 <template>
+
   <!-- <header-doctor></header-doctor>-->
 
- <homePatient></homePatient>
- <patientProfile></patientProfile>
-
-  <footer-content></footer-content>
+ <doctor-registration></doctor-registration>
 
 
+   <!--  <homePatient></homePatient>-->
+  <!--<patientProfile></patientProfile>-->
 
-</template>
+
+
+
+
+  </template>
 

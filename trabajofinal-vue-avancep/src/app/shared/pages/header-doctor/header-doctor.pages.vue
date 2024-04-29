@@ -1,32 +1,42 @@
 <template>
-    <div class="p-toolbar p-component p-toolbar-custom">
-      <div class="logo-container">
-        <img :src="logo" alt="Logo" class="logo">
-        <span class="brand-text">HormonalCare</span>
-      </div>
-      <div>
-        <h3>Buscador de médicos</h3>
-      </div>
-      <div class="icon-text">
-        <img :src="calendar" alt="calendar" class="calendar-icon">
-        <img :src="message" alt="message" class="message-icon">
-        <img :src="bell" alt="notifications" class="bell-icon">
-        <img :src="homeIcon" alt="home" class="home-icon">
-        <img :src="profileIcon" alt="profile" class="profile-icon">
-      </div>
-      <div id="nav">
-        <router-link to="/homeDoctor">Home</router-link>
-        <router-link to="/calendar">Calendar</router-link>
-        <router-link to="/messages">Messages</router-link>
-        <router-link to="/notifications">Notifications</router-link>
-        <router-link to="/doctorProfile">Doctor Profile</router-link>
-      </div>
-      <div>
-        <router-view name="LeftSideBar">
-        </router-view>
-      </div>
+  <div class="p-toolbar p-component p-toolbar-custom">
+    <div class="logo-container">
+      <img :src="logo" alt="Logo" class="logo">
+      <span class="brand-text">HormonalCare</span>
     </div>
-  </template>
+    <div class="search">
+      <h3>Buscador de médicos</h3>
+    </div>
+    <div id="nav">
+      <router-link to="/homeDoctor" class="word-link" >
+        <img :src="homeIcon" alt="home" class="nav-icon"> Home </router-link>
+      <router-link to="/calendar" class="word-link">
+        <img :src="calendar" alt="calendar" class="calendar-icon">
+        Calendar
+      </router-link>
+      <router-link to="/messages" class="word-link">
+        <img :src="message" alt="message" class="nav-icon">
+        Messages
+      </router-link>
+      <router-link to="/notifications" class="word-link">
+        <img :src="bell" alt="notifications" class="nav-icon">
+        Notifications
+      </router-link>
+      <router-link to="/doctorProfile" class="word-link">
+        <img :src="profileIcon" alt="profile" class="nav-icon">
+        Doctor Profile
+      </router-link>
+
+    </div>
+    <div>
+      <router-view ></router-view>
+    </div>
+
+
+  </div>
+  <footer-content></footer-content>
+
+</template>
 
 
 <script>
@@ -36,8 +46,12 @@ import message from '@/assets/images/message.png';
 import bell from '@/assets/images/bell.png';
 import homeIcon from '@/assets/images/home-icon.png';
 import profileIcon from '@/assets/images/profile-icon.png';
-
+import FooterContent from "@/app/shared/pages/footer-content/footer-content.pages.vue";
   export default {
+    name: 'HeaderDoctor',
+    components: {
+      FooterContent,
+    },
       data() {
       return {
       logo,
@@ -51,54 +65,56 @@ import profileIcon from '@/assets/images/profile-icon.png';
 }
 </script>
 
+
 <style >
 .p-toolbar-custom {
-  display: flex;
-
-  justify-content: space-between; /* Distribuye el espacio entre los elementos */
   background-color: #A788AB;
-  height: 60px;
+  height: 70px;
   width: 100%;
+  display: flex;
+}
 
-  top: 0;
-
+.word-link {
+  color: #ffffff;
 }
 
 .logo-container {
   display: flex;
-  align-items: center;
+  margin-left: 0;
+}
+
+.search{
+
+  margin-left: 0;
 }
 
 .logo {
   border-radius: 50%;
   width: 50px;
-  height: 50px; /* Ajustado para ser cuadrado */
-  margin-right: 10px;
+  height: 50px;
 }
 
 .brand-text {
-  font-size: 20px;
+
+  font-size:18px;
   color: #fff;
 }
 
-.icon-text {
-  display: flex; /* Cambiado a flex para mejorar la distribución */
-  align-items: center;
+.nav-icon {
+  width: 36px;
+  height: 36px;
 }
 
-.calendar-icon, .message-icon, .bell-icon, .home-icon, .profile-icon {
-  width: 30px;
-  height: 30px;
-  margin-left: 20px; /* Espaciado uniforme entre iconos */
+.calendar-icon {
+  width: 60px;
+  height: 36px;
+  margin-right: 0;
 }
 
 #nav {
-  display: flex;
-  margin-left: 20px;
+  margin-left: 500px;
+
 }
 
-#nav > router-link {
-  margin-right: 30px; /* Espaciado entre enlaces */
-  color: white; /* Color del texto para los enlaces, suponiendo que quieres blanco */
-}
+
 </style>
