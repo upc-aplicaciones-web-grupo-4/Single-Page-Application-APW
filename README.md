@@ -11,7 +11,7 @@ Ciclo 2024-01
 
 <hr>
 
-# <center>Desarrollo de Aplicaciones Open Source</center>
+# <center>Aplicaciones Web</center>
 
 ## TF REPORT
 
