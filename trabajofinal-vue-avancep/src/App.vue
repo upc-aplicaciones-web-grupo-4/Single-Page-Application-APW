@@ -6,6 +6,7 @@ import FooterContent from "./app/shared/pages/footer-content/footer-content.page
 import DoctorRegistration from "./app/identity-and-access/pages/doctor-registration.pages.vue";
 export default {
   components: {
+    DoctorRegistration,
     FooterContent,
     homePatient,
     patientProfile,
