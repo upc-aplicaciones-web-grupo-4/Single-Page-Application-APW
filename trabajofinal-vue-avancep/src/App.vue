@@ -3,6 +3,7 @@ import homePatient from './app/profiles/pages/patient-profile/home-patient.pages
 import patientProfile from './app/profiles/pages/patient-profile/patient-profile.pages.vue';
 import headerDoctor from './app/shared/pages/header-doctor/header-doctor.pages.vue';
 import FooterContent from "./app/shared/pages/footer-content/footer-content.pages.vue";
+import DoctorRegistration from "./app/identity-and-access/pages/doctor-registration.pages.vue";
 export default {
   components: {
     FooterContent,
