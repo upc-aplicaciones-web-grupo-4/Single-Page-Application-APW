@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b71f181-61ae-47a2-8a09-fde7a840b7e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/doctor-profile/doctor-profile.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/doctor-profile/doctor-profile.pages.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/doctor-profile/home-doctor.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/doctor-profile/home-doctor.pages.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/pages/footer-content/footer-content.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/pages/footer-content/footer-content.pages.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/pages/header-doctor/header-doctor.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/pages/header-doctor/header-doctor.pages.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="1b71f181-61ae-47a2-8a09-fde7a840b7e3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
