@@ -16,11 +16,11 @@ export default {
 </script>
 
 <template>
-  <header-doctor></header-doctor>
+  <!-- <header-doctor></header-doctor>-->
 
 
-  <!--<homePatient></homePatient>
-  <patientProfile></patientProfile>-->
+ <homePatient></homePatient>
+ <patientProfile></patientProfile>
 
   <footer-content></footer-content>
 
