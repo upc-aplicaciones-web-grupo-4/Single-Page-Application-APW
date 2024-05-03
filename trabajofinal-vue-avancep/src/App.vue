@@ -25,9 +25,9 @@ export default {
   <!-- <header-doctor></header-doctor>-->
 
   <!--<doctor-registration></doctor-registration>-->
- <select-user-role> </select-user-role>
+ <!--<select-user-role> </select-user-role>-->
 
-    <!--  <homePatient></homePatient>-->
+  <homePatient></homePatient>
   <!--<patientProfile></patientProfile>-->
 
 
