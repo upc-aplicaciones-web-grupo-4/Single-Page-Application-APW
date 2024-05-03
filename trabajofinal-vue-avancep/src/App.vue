@@ -28,7 +28,7 @@ export default {
  <!--<select-user-role> </select-user-role>-->
 
   <homePatient></homePatient>
-  <!--<patientProfile></patientProfile>-->
+  <patientProfile></patientProfile>
 
 
 

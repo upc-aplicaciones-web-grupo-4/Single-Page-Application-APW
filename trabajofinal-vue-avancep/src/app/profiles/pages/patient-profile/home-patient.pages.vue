@@ -4,6 +4,7 @@ import Card from 'primevue/card';
 import DataTable from "primevue/datatable";
 import Column from "primevue/column";
 import Dialog from 'primevue/dialog';
+import MedicalHistoryService from '../../services/medical-history.service.js';
 
 export default {
   components: {
@@ -15,21 +16,26 @@ export default {
   },
   data() {
     return {
-      visible: false,
-      toppings: {
-        pepperoni: false,
-        extraCheese: false,
-        mushroom: false
-      }
+      treatmentAndMedicationArray: [], // Inicializa treatmentAndMedicationArray como un array vacío
     };
   },
-  computed: {
-    toppingsArray() {
-      return Object.keys(this.toppings).map(key => ({
-        name: key,
-        value: this.toppings[key]
-      }));
+  methods: {
+    fetchMedicalHistoryByPatientId(patientId) {
+      MedicalHistoryService.getMedicalHistoryByPatientId(patientId)
+          .then(response => {
+            this.treatmentAndMedicationArray = response.data.treatment_and_medication.map(item => ({
+              medication: item.medication,
+              concentration: item.concentration,
+              frequency: item.frequency
+            }));
+          })
+          .catch(error => {
+            console.error(error);
+          });
     }
+  },
+  mounted() {
+    this.fetchMedicalHistoryByPatientId(1); // Reemplaza 1 con el ID del paciente que deseas obtener
   }
 };
 </script>
@@ -47,10 +53,11 @@ export default {
       <div class="part2">
         <p-card style="width: 100%; overflow: hidden; border-radius: 20px; background-color: #8f7193">
           <template #content>
-            <div v-for="(topping, index) in toppingsArray" :key="index">
+            <div v-for="(treatment, index) in treatmentAndMedicationArray" :key="index">
               <div class="con" >
-                <p style="width: 70%; background-color: #dfcae1; border-radius: 10px; padding:10px; "><b>{{ topping.name }}</b></p>
-                <p style="width: 20%; background-color: #dfcae1; border-radius: 10px; padding:10px; "><b>{{ topping.value }}</b></p>
+                <p style="width: 70%; background-color: #dfcae1; border-radius: 10px; padding:10px; "><b>{{ treatment.medication }}</b></p>
+                <p style="width: 20%; background-color: #dfcae1; border-radius: 10px; padding:10px; "><b>{{ treatment.concentration }}</b></p>
+                <p style="width: 20%; background-color: #dfcae1; border-radius: 10px; padding:10px; "><b>{{ treatment.frequency }}</b></p>
               </div>
             </div>
           </template>
