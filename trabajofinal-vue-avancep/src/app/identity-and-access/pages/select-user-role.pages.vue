@@ -1,8 +1,22 @@
-
 <script setup>
 import Card from 'primevue/card';
 import Toolbar from "primevue/toolbar";
+import patientIcon from "@/assets/images/patient-icon.png";
+import doctorIcon from "@/assets/images/doctor-icon.png";
+import userTypeService from "@/app/shared/services/user-type.service";
 
+const optionRoles = [
+  { path: '/homePatient', title: 'Patient', icon: patientIcon},
+  { path: '/homeDoctor', title: 'Endocrinologist', icon: doctorIcon},
+];
+
+const setUserType = (type) => {
+  if (type === 'endocrinologist' || type === 'patient') {
+    userTypeService.setUserType(type);
+  } else {
+    console.error(`Invalid user type: ${type}`);
+  }
+};
 </script>
 
 <template>
@@ -18,23 +32,12 @@ import Toolbar from "primevue/toolbar";
         <h1>Select your user Type</h1>
       </div>
       <div class="userCards">
-        <Card title="Patient" class="patientCard">
+        <Card v-for="(option, i) in optionRoles" :key="i" :title="option.title" :class="i === 0 ? 'patientCard' : 'endocrinologistCard'">
           <template #content>
-            <router-link to="/patient-header">
-              <h1 class="patientTitle">Patient</h1>
+            <router-link :to="option.path" @click.native="setUserType(option.title.toLowerCase())">
+              <h1 :class="i === 0 ? 'patientTitle' : 'endocrinologistTitle'">{{ option.title }}</h1>
               <div class="circle">
-                <img src="@/assets/images/patient-icon.png" alt="Patient icon" style="width: 100px; height: 100px; margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
-              </div>
-            </router-link>
-
-          </template>
-        </Card>
-        <Card title="Doctor" class="endocrinologistCard">
-          <template #content>
-            <router-link to="/doctor-header">
-              <h1 class="endocrinologistTitle">Endocrinologist</h1>
-              <div class="circle">
-                <img src="@/assets/images/doctor-icon.png" alt="Patient icon" style="width: 100px; height: 100px; margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
+                <img :src="option.icon" alt="Patient icon" style="width: 100px; height: 100px; margin-top: 20px; margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
               </div>
             </router-link>
           </template>
@@ -47,6 +50,7 @@ import Toolbar from "primevue/toolbar";
   </div>
 </template>
 
+
 <style scoped>
   @import 'primevue/resources/themes/saga-blue/theme.css';
   @import 'primevue/resources/primevue.min.css';
@@ -56,7 +60,7 @@ import Toolbar from "primevue/toolbar";
     background-color: rgba(167, 138, 171, 1);
     color: white;
     position: fixed;
-    z-index: 1000; /* Z-index más alto para el Toolbar */
+    z-index: 1000;
     top: 0;
     left: 0;
     right: 0;
@@ -77,7 +81,7 @@ import Toolbar from "primevue/toolbar";
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 0; /* Z-index más bajo para la imagen de fondo */
+    z-index: 0;
   }
 
   .textAndCards {
@@ -85,15 +89,15 @@ import Toolbar from "primevue/toolbar";
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 2000; /* Asegúrate de que el z-index sea mayor que el de .full-screen-background */
-    position: relative; /* Asegúrate de que la div esté posicionada para que el z-index tenga efecto */
+    z-index: 2000;
+    position: relative;
   }
 
   .selectUserText {
     display: flex;
     justify-content: center;
-    z-index: 4000; /* Asegúrate de que el z-index sea mayor que el de .userCards */
-    position: relative; /* Asegúrate de que la div esté posicionada para que el z-index tenga efecto */
+    z-index: 4000;
+    position: relative;
   }
 
   .userCards {
@@ -101,7 +105,7 @@ import Toolbar from "primevue/toolbar";
     justify-content: space-between;
     margin-top: 100px;
     z-index: 3000;
-    position: relative; /* Asegúrate de que .userCards tiene una posición establecida */
+    position: relative;
   }
 
   .patientCard {
