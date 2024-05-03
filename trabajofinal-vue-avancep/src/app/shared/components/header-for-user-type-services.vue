@@ -5,8 +5,8 @@
 
 <script>
 import userTypeService from "@/app/shared/services/user-type.service";
-import HeaderDoctor from "@/app/shared/pages/header-doctor/header-doctor.pages.vue";
-import HeaderPatient from "@/app/shared/pages/header-patient/header-patient.pages.vue";
+import HeaderDoctor from "@/app/shared/pages/header-doctor.pages.vue";
+import HeaderPatient from "@/app/shared/pages/header-patient.pages.vue";
 
 export default {
   name: 'HeaderForUserTypeService',
