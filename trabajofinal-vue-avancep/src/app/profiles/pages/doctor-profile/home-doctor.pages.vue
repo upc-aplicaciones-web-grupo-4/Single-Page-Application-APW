@@ -95,17 +95,20 @@ export default {
 </script>
 
 <template>
-  <div class="patients-table">
-    <h2>Today's patients</h2>
-    <DataTable :value="patients">
-      <Column field="name" header="Name"></Column>
-      <Column field="typeOfCare" header="Type of care"></Column>
-      <Column field="hour" header="Hour"></Column>
-      <Column field="diagnosis" header="Diagnosis"></Column>
-      <Column field="alert" header="Alert"></Column>
-      <Column field="clinicHistory" header="Clinic history" :body="clinicHistoryButton"></Column>
-      <Column field="videoConference" header="Video conference" :body="videoConferenceImage"></Column>
-    </DataTable>
+
+  <div class="p-d-flex p-jc-center p-ai-center p-h-100">
+    <div class="patients-table">
+      <h2>Today's patients</h2>
+      <DataTable :value="patients">
+        <Column field="name" header="Name"></Column>
+        <Column field="typeOfCare" header="Type of care"></Column>
+        <Column field="hour" header="Hour"></Column>
+        <Column field="diagnosis" header="Diagnosis"></Column>
+        <Column field="alert" header="Alert"></Column>
+        <Column field="clinicHistory" header="Clinic history" :body="clinicHistoryButton"></Column>
+        <Column field="videoConference" header="Video conference" :body="videoConferenceImage"></Column>
+      </DataTable>
+    </div>
   </div>
 </template>
 
@@ -115,4 +118,8 @@ export default {
   width: 75%;
   float: left;
 }
+.p-h-100 {
+  height: 100vh;
+}
+
 </style>

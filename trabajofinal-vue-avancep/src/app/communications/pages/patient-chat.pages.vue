@@ -1,12 +1,10 @@
-<script>
-export class NotificationsView {
-  // Add the necessary code here
-}
+<script setup>
+
 </script>
 
 <template>
   <div class="p-d-flex p-jc-center p-ai-center p-h-100">
-    <p>Notifications</p>
+    <p>Patient chat is in progress</p>
   </div>
 </template>
 
