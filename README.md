@@ -1,36 +1,7 @@
-<div align="center">
+# Vue 3 + Vite
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
+## Recommended IDE Setup
 
-# Universidad Peruana de Ciencias Aplicadas
-
-Ingeniería de Software
-
-Ciclo 2024-01
-
-<hr>
-
-# <center>Aplicaciones Web</center>
-
-## TF REPORT
-
-**Sección:** SW53
-
-**Profesor**: Alex Humberto Sánchez Ponce
-
-**StartUp Name**: NinjaCode
-
-**Producto**: HormonalCare
-
-### Team Members:
-
-| Member                            |    Code    |
-| :-------------------------------- | :--------: |
-| Quispesivana Torres Claudio Sandro | U202215099 |
-| Astuyauri Calderon Jherson David | U202218451 |
-| Hernan Emilio Morales Calderon | U202216263 |
-| Chinchihualpa Saldarriaga Luis Sebastian | U202212112 |
-| Lostaunau Pereira Estefano Sebastian | U202211742 |
-
-<br>
+- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur

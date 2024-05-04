@@ -6,8 +6,73 @@
   <component name="ChangeListManager">
     <list default="true" id="1b71f181-61ae-47a2-8a09-fde7a840b7e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/patient-profile/home-patient.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/patient-profile/home-patient.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/fixtures/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/calendar/pages/calendar-patient.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/calendar/pages/calendar-patient.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/calendar/pages/calendar-view.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/calendar/pages/calendar-view.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/components/chat-list-doctor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/components/chat-list-doctor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/components/chat-list-patient.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/components/chat-list-patient.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/components/datepicker-profile-colleague.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/components/datepicker-profile-colleague.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/components/doctor-chat.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/components/doctor-chat.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/components/hourpicker-profile-colleague.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/components/hourpicker-profile-colleague.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/components/patient-chat.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/components/patient-chat.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/components/space-assign-patient.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/components/space-assign-patient.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/modules/doctors-api.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/modules/doctors-api.entity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/pages/doctor-patient.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/pages/doctor-patient.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/pages/doctor-view-colleague.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/pages/doctor-view-colleague.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/pages/patient-doctor.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/pages/patient-doctor.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/communications/services/doctors-api.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/communications/services/doctors-api.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/identity-and-access/pages/doctor-registration.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/identity-and-access/pages/doctor-registration.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/identity-and-access/pages/select-user-role.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/identity-and-access/pages/select-user-role.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/notifications/pages/notification-patients.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/notifications/pages/notification-patients.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/notifications/pages/notifications-view.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/notifications/pages/notifications-view.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/models/doctors.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/models/doctors.entity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/models/medical-history.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/models/medical-history.entity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/models/patient-appointment.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/models/patient-appointment.entity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/models/patients.entity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/models/patients.entity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/doctor-profile/doctor-profile.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/pages/doctor-profile/doctor-profile.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/doctor-profile/home-doctor.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/pages/doctor-profile/home-doctor.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/patient-profile/home-patient.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/pages/patient-profile/home-patient.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/patient-profile/patient-profile.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/pages/patient-profile/patient-profile.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/services/doctors.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/doctors.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/services/medical-history.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/medical-history.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/services/patient-appointment.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/patient-appointment.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/services/patients.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/patients.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/components/header-for-user-type-services.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/header-for-user-type-services.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/pages/footer-content.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/pages/footer-content.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/pages/header-doctor.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/pages/header-doctor.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/pages/header-patient.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/pages/header-patient.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/pages/page-not-found.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/pages/page-not-found.pages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/shared/services/user-type.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/services/user-type.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/imagen1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imagen1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/bell.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/calendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/calendar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/default-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/default-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/doctor-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/doctor-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/google-meet-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/google-meet-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/home-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/home-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/message.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/message.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/patient-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/patient-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/profile-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/profile-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/assets/images/select-user-role-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/select-user-role-background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/environments/environment.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/environments/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,36 +113,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Feature/patient-profile-management",
-    "last_opened_file_path": "C:/Users/G701/3D Objects/CURSOS U/Aplicaciones Web/catch-up-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "CodeWithMe",
-    "ts.external.directory.path": "C:\\Users\\G701\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/G701/3D Objects/CURSOS U/Aplicaciones Web/catch-up-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\astuj\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Aplicaciones Web - presencial\upc-pre-202401-si730-sw53-grupo4-report-tb1\fixtures" />
+      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Aplicaciones Web - presencial\upc-pre-202401-si730-sw53-grupo4-report-tb1" />
+      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Aplicaciones Web - presencial\upc-pre-202401-si730-sw53-grupo4-report-tb1\trabajofinal-vue-avancep" />
+      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Aplicaciones Web - presencial\upc-pre-202401-si730-sw53-grupo4-report-tb1\trabajofinal-vue-avancep\src" />
       <recent name="C:\Users\G701\3D Objects\web github\upc-pre-202401-si730-sw53-grupo4-report-tb1\trabajofinal-vue-avancep\src\assets" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/trabajofinal-vue-avancep/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -86,13 +156,6 @@
       <envs />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,6 +171,8 @@
       <workItem from="1714744426642" duration="1694000" />
       <workItem from="1714746489306" duration="2305000" />
       <workItem from="1714749094885" duration="20419000" />
+      <workItem from="1714785506492" duration="245000" />
+      <workItem from="1714792458208" duration="8306000" />
     </task>
     <servers />
   </component>
