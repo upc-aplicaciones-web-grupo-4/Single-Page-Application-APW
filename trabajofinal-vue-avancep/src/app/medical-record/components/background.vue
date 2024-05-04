@@ -1,19 +1,17 @@
 <template>
   <div class="two-column-container">
     <div class="two-column-title">Personal history</div>
-    <InputTextarea class="two-column-item" v-model="personalHistory"></InputTextarea>
+    <input-text class="two-column-item" v-model="personalHistory"></input-text>
     <div class="two-column-title">Family background</div>
-    <InputTextarea class="two-column-item" v-model="familyBackground"></InputTextarea>
+    <input-text class="two-column-item" v-model="familyBackground"></input-text>
   </div>
 </template>
 
 <script>
 import { ref } from 'vue'
-import { InputTextarea } from 'primevue/inputtextarea';
 
 export default {
   components: {
-    InputTextarea
   },
   setup() {
     const personalHistory = ref('');
