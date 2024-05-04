@@ -49,7 +49,7 @@ export default {
 }
 
 .chat-container {
-  width: 100%;
+
   max-width: none;
   background: white;
   border-radius: 8px;
