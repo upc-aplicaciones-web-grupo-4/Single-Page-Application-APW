@@ -12,19 +12,18 @@ export default {
   </div>
 </template>
 
-<style >
+<style scoped>
 .footer {
   background-color: #A788AB;
   padding: 20px 0;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  margin-top: 100vh; /* Ajusta este valor según tus necesidades */
   width: 100%;
   text-align: center;
+position: absolute;
 }
 
 .content {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   color: #fff;
   font-size: 14px;
