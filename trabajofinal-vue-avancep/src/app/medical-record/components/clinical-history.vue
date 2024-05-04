@@ -1,24 +1,20 @@
 <template>
   <div class="div-toolbar">
-    <Toolbar class="buttons" color="primary">
-      <Button label="Reason of consultation" @click="navigateTo('reasonConsultation')"></Button>
-      <Button label="Background" @click="navigateTo('background')"></Button>
-      <Button label="Medical exams" @click="navigateTo('medicalExams')"></Button>
-      <Button label="External reports" @click="navigateTo('externalReports')"></Button>
-      <Button label="Diagnoses and treatment" @click="navigateTo('diagnosesAndTreatment')"></Button>
-    </Toolbar>
+    <div class="buttons">
+      <button label="Reason of consultation" @click="navigateTo('reasonConsultation')">Reason for the Appointment</button>
+      <button label="Background" @click="navigateTo('background')">Background</button>
+      <button label="Medical exams" @click="navigateTo('medicalExams')">Medical Exams</button>
+      <button label="External reports" @click="navigateTo('externalReports')">External Reports</button>
+      <button label="Diagnoses and treatment" @click="navigateTo('diagnosesAndTreatment')">Diagnosis and treatment</button>
+    </div>
   </div>
 </template>
 
 <script>
 import { ref } from 'vue'
-import { Button } from 'primevue/button';
-import { Toolbar } from 'primevue/toolbar';
 
 export default {
   components: {
-    Button,
-    Toolbar
   },
   setup() {
     const navigateTo = (route) => {
@@ -50,11 +46,8 @@ button {
 
 .buttons {
   justify-content: center;
+  display:flex;
 }
 
-.toolbar {
-  display: flex;
-  justify-content: center;
-}
 
 </style>
