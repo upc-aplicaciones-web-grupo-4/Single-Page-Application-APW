@@ -11,14 +11,16 @@
 </template>
 
 <script>
-import { ref } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 
 export default {
   components: {
   },
   setup() {
+    const router = useRouter()
+
     const navigateTo = (route) => {
-      // Aquí puedes implementar la lógica de navegación
+      router.push(`/${route}`)
     }
 
     return {
