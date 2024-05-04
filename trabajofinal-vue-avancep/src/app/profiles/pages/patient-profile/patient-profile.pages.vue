@@ -19,7 +19,7 @@ export default  {
     return {
       profile: {
         name: '',
-        surnames: '',
+        lastname: '',
         email: '',
         password: ''
       }
@@ -75,7 +75,7 @@ export default  {
 
       </div>
       <div class="part2">
-        <p-card title="Profile" style="width: 100%; overflow: hidden; border-radius: 20px; background-color: #8f7193">
+        <p-card   title="Profile"  style="width: 100%; overflow: hidden; border-radius: 20px; background-color: #8f7193">
           <template #content>
             <div class="p-fluid">
               <div class="p-field">
@@ -83,8 +83,8 @@ export default  {
                 <InputText id="name" v-model="profile.name" />
               </div>
               <div class="p-field">
-                <label for="surnames">Surnames</label>
-                <InputText id="surnames" v-model="profile.lastname" />
+                <label for="lastname">Lastname</label>
+                <InputText id="lastname" v-model="profile.lastname" />
               </div>
               <div class="p-field">
                 <label for="email">E-mail</label>
@@ -111,7 +111,7 @@ export default  {
             <div class="contref">
               <div class="ref1">
                 <h3>Doctor consultations</h3>
-                <p >Schedule your next visit or resolve your medical questions, click here.</p>
+                <p>Schedule your next visit or resolve your medical questions, click here.</p>
               </div>
               <div class="ref2">
                 <a :href="link">
@@ -127,8 +127,8 @@ export default  {
           <template #content >
             <div class="contref">
               <div class="ref1">
-                <h3>Doctor consultations</h3>
-                <p >Schedule your next visit or resolve your medical questions, click here.</p>
+                <h3>Check the status of my treatment</h3>
+                <p>For a detailed evaluation and adjustments to your treatment, click here.</p>
               </div>
               <div class="ref2">
                 <a :href="link">
@@ -143,8 +143,8 @@ export default  {
           <template #content >
             <div class="contref">
               <div class="ref1">
-                <h3>Doctor consultations</h3>
-                <p >Schedule your next visit or resolve your medical questions, click here.</p>
+                <h3>Set up notifications</h3>
+                <p>Activate or customize your alerts to stay informed, click here.</p>
               </div>
               <div class="ref2">
                 <a :href="link">
@@ -169,7 +169,7 @@ export default  {
   flex-direction: column;
   justify-content: space-between;
   width:100%;
-
+  height: 91vh;
   background-color: #e5dde6;
 }
 

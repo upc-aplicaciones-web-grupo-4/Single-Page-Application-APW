@@ -5,6 +5,8 @@ import Password from 'primevue/password';
 import Button from 'primevue/button';
 import { ref } from 'vue';
 import FileUpload from 'primevue/fileupload';
+import DoctorService from '../../services/doctors.service.js';
+
 export default  {
   components: {
     'p-card' : Card,
@@ -18,29 +20,40 @@ export default  {
     return {
       profile: {
         name: '',
-        surnames: '',
+        lastname: '',
         email: '',
         password: ''
       }
     };
   },
   methods: {
-    updateProfile() {}
+    updateProfile() {
+      // Aquí puedes agregar la lógica para actualizar el perfil
+    },
+    loadDoctorById(doctorId) {
+      DoctorService.getDoctorById(doctorId)
+          .then(response => {
+            this.profile = response.data;
+          })
+          .catch(error => {
+            console.error(error);
+          });
+    }
+  },
+
+  mounted() {
+    // Carga inicial del paciente con ID 1
+    this.loadDoctorById(1);
   },
   setup() {
     const imageSrc = ref('https://th.bing.com/th/id/R.8118c65e71a4c667f8de22354f0c0794?rik=kSaBHPfWgjOZPg&pid=ImgRaw&r=0');
 
-    const onUpload = {
-      name: 'images[]',
-      url: '.', // URL del servidor al que se subirá la imagen
-      auto: true,
-      onUpload(event) {
-        const fileReader = new FileReader();
-        fileReader.onload = (e) => {
-          imageSrc.value = e.target.result;
-        };
-        fileReader.readAsDataURL(event.files[0]);
-      }
+    const onUpload = (event) => {
+      const fileReader = new FileReader();
+      fileReader.onload = (e) => {
+        imageSrc.value = e.target.result; // Actualiza imageSrc con la nueva imagen
+      };
+      fileReader.readAsDataURL(event.files[0]);
     };
 
     return {
@@ -71,8 +84,8 @@ export default  {
                 <InputText id="name" v-model="profile.name" />
               </div>
               <div class="p-field">
-                <label for="surnames">Surnames</label>
-                <InputText id="surnames" v-model="profile.surnames" />
+                <label for="surnames">Lastname</label>
+                <InputText id="lastname" v-model="profile.lastname" />
               </div>
               <div class="p-field">
                 <label for="email">E-mail</label>
@@ -99,7 +112,7 @@ export default  {
             <div class="contref">
               <div class="ref1">
                 <h3>Doctor consultations</h3>
-                <p >Schedule your next visit or resolve your medical questions, click here.</p>
+                <p>Schedule your next visit or resolve your medical questions, click here.</p>
               </div>
               <div class="ref2">
                 <a :href="link">
@@ -115,8 +128,8 @@ export default  {
           <template #content >
             <div class="contref">
               <div class="ref1">
-                <h3>Doctor consultations</h3>
-                <p >Schedule your next visit or resolve your medical questions, click here.</p>
+                <h3>Check the status of my treatment</h3>
+                <p>For a detailed evaluation and adjustments to your treatment, click here.</p>
               </div>
               <div class="ref2">
                 <a :href="link">
@@ -131,8 +144,8 @@ export default  {
           <template #content >
             <div class="contref">
               <div class="ref1">
-                <h3>Doctor consultations</h3>
-                <p >Schedule your next visit or resolve your medical questions, click here.</p>
+                <h3>Set up notifications</h3>
+                <p>Activate or customize your alerts to stay informed, click here.</p>
               </div>
               <div class="ref2">
                 <a :href="link">
@@ -151,14 +164,13 @@ export default  {
 .p-h-100 {
   height: 100vh;
 }
-
 .cont {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width:100%;
-
+  height: 91vh;
   background-color: #e5dde6;
 }
 
@@ -180,6 +192,9 @@ export default  {
 .contimg{
   box-sizing: border-box;
   width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 .part1, .part2, .part3 {
@@ -255,12 +270,12 @@ export default  {
 }
 
 h3{
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin: 0;
 }
 p{
   margin: 0;
-  font-size: 0.5vw;
+  font-size: 1vw;
 }
 
 .imgref{
