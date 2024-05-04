@@ -41,7 +41,7 @@ const router = createRouter({
         { path: '/messagesPatient', component: PatientChat },
         { path: '/notificationsPatient', component: NotificationsPatients},
         { path: '/patientProfile', component: PatientProfile },
-        //{ path: '/', redirect: '/selectRole' }
+        { path: '/', redirect: '/selectRole' },
        //{ path: 'medical-history', component: MedicalhistorypageComponent },
         { path: '/reasonConsultation', component: ReasonConsultation },
         { path: '/background', component: Background },
