@@ -37,6 +37,7 @@ export default {
  /* Espacio entre el componente y el otro componente */
   width: 20%;
   display:flex;
+  margin-top: -200px
 }
 
 .other-component {
@@ -46,6 +47,7 @@ export default {
   width:80%;
   background: #A788AB;
   border-radius: 8px;
+  margin-top: -200px
 }
 .header-container{
   background: #A788AB;

@@ -39,6 +39,7 @@ export default {
 
 
 .chat-item {
+
   display: flex;
   align-items: center;
   padding: 70px;

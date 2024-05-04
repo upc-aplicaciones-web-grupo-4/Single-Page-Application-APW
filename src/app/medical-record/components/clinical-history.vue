@@ -32,13 +32,14 @@ export default {
 
 <style scoped>
 button {
+  margin: 20px 10px;
   background-color: #dfcae1;
   color: black !important;
   padding: 5px 10px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  margin: 0 10px;
+
 }
 
 .div-toolbar {

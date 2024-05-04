@@ -2,7 +2,7 @@
   <div class="empty-column-container">
     <div class="hola">
       <div class="hola2">
-        Diagnostics <button label="Add" @click="navigateTo('treatmentPatient')"></button>
+        Diagnostics <button label="Add" @click="navigateTo('treatmentPatient')">add</button>
       </div>
       <div class="column-row-item">
         <ul>
@@ -15,7 +15,7 @@
     </div>
     <div class="hola">
       <div class="hola2">
-        Treatment and medication <button label="Add" @click="navigateTo('treatmentPatient')"></button>
+        Treatment and medication <button label="Add" @click="navigateTo('treatmentPatient')">add</button>
       </div>
       <div class="column-row-item2">
         <ul>
@@ -57,6 +57,7 @@ export default {
 }
 .hola2 button {
   background: #dfcae1;
+  padding: 10px 15px;
   float: right;
   border-radius: 15px;
 }

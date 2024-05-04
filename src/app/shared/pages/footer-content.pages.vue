@@ -12,7 +12,7 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style >
 .footer {
   box-sizing: border-box;
   background-color: #A788AB;
@@ -21,13 +21,15 @@ export default {
   width: 100%;
   text-align: center;
 position: absolute;
+
 }
 
-.content {
+.footer .content {
   box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
   color: #fff;
   font-size: 14px;
+  justify-content: center;
 }
 </style>
