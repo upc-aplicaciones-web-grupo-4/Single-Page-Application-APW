@@ -5,6 +5,8 @@ import Password from 'primevue/password';
 import Button from 'primevue/button';
 import { ref } from 'vue';
 import FileUpload from 'primevue/fileupload';
+import PatientService from '../../services/patients.service'; // Importa tu servicio de pacientes
+
 export default  {
   components: {
     'p-card' : Card,
@@ -26,22 +28,31 @@ export default  {
   methods: {
     updateProfile() {
       // Aquí puedes agregar la lógica para actualizar el perfil
+    },
+    loadPatientById(patientId) {
+      PatientService.getPatientById(patientId)
+          .then(response => {
+            this.profile = response.data;
+          })
+          .catch(error => {
+            console.error(error);
+          });
     }
+  },
+
+  mounted() {
+    // Carga inicial del paciente con ID 1
+    this.loadPatientById(1);
   },
   setup() {
     const imageSrc = ref('https://th.bing.com/th/id/R.8118c65e71a4c667f8de22354f0c0794?rik=kSaBHPfWgjOZPg&pid=ImgRaw&r=0');
 
-    const onUpload = {
-      name: 'images[]',
-      url: '.', // URL del servidor al que se subirá la imagen
-      auto: true,
-      onUpload(event) {
-        const fileReader = new FileReader();
-        fileReader.onload = (e) => {
-          imageSrc.value = e.target.result;
-        };
-        fileReader.readAsDataURL(event.files[0]);
-      }
+    const onUpload = (event) => {
+      const fileReader = new FileReader();
+      fileReader.onload = (e) => {
+        imageSrc.value = e.target.result; // Actualiza imageSrc con la nueva imagen
+      };
+      fileReader.readAsDataURL(event.files[0]);
     };
 
     return {
@@ -53,17 +64,18 @@ export default  {
 </script>
 
 <template>
+  <div class="p-d-flex p-jc-center p-ai-center p-h-100">
   <div class="cont">
     <div class="box1">
 
       <div class="part1">
-        <div class="contimg">
+        <div class="contimg" >
           <img class="imgprofile" :src="imageSrc" alt="Imagen de perfil">
-          <FileUpload v-model="onUpload" mode="basic" accept="image/*" chooseLabel="Edit photo"  />        </div>
+          <FileUpload style="margin-top:20px;" :auto="true" @upload="onUpload" mode="basic" accept="image/*" chooseLabel="Edit photo" />        </div>
 
       </div>
       <div class="part2">
-        <p-card   title="Profile"  style="width: 100%; overflow: hidden; border-radius: 20px; background-color: #8f7193">
+        <p-card title="Profile" style="width: 100%; overflow: hidden; border-radius: 20px; background-color: #8f7193">
           <template #content>
             <div class="p-fluid">
               <div class="p-field">
@@ -72,7 +84,7 @@ export default  {
               </div>
               <div class="p-field">
                 <label for="surnames">Surnames</label>
-                <InputText id="surnames" v-model="profile.surnames" />
+                <InputText id="surnames" v-model="profile.lastname" />
               </div>
               <div class="p-field">
                 <label for="email">E-mail</label>
@@ -144,9 +156,13 @@ export default  {
       </div>
     </div>
   </div>
+  </div>
 </template>
 
 <style scoped>
+.p-h-100 {
+  height: 100vh;
+}
 .cont {
   box-sizing: border-box;
   display: flex;
@@ -175,6 +191,9 @@ export default  {
 .contimg{
   box-sizing: border-box;
   width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 .part1, .part2, .part3 {
@@ -250,12 +269,12 @@ export default  {
 }
 
 h3{
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin: 0;
 }
 p{
   margin: 0;
-  font-size: 0.5vw;
+  font-size: 1vw;
 }
 
 .imgref{

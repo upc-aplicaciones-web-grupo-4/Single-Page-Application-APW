@@ -11,7 +11,8 @@ export default  {
     InputText,
     Password,
     Button,
-    FileUpload
+    FileUpload,
+
   },
   data() {
     return {
@@ -24,9 +25,7 @@ export default  {
     };
   },
   methods: {
-    updateProfile() {
-      // Aquí puedes agregar la lógica para actualizar el perfil
-    }
+    updateProfile() {}
   },
   setup() {
     const imageSrc = ref('https://th.bing.com/th/id/R.8118c65e71a4c667f8de22354f0c0794?rik=kSaBHPfWgjOZPg&pid=ImgRaw&r=0');
@@ -53,6 +52,7 @@ export default  {
 </script>
 
 <template>
+  <div class="p-d-flex p-jc-center p-ai-center p-h-100">
   <div class="cont">
     <div class="box1">
 
@@ -144,9 +144,14 @@ export default  {
       </div>
     </div>
   </div>
+  </div>
 </template>
 
 <style scoped>
+.p-h-100 {
+  height: 100vh;
+}
+
 .cont {
   box-sizing: border-box;
   display: flex;

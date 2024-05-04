@@ -5,11 +5,14 @@ export class CalendarView {
 </script>
 
 <template>
-  <div>
-    <h4>PA cuando el calendario</h4>
+  <div class="p-d-flex p-jc-center p-ai-center p-h-100">
+    <p>The calendar is in process</p>
   </div>
 </template>
 
-<style scoped>
 
+<style scoped>
+.p-h-100 {
+  height: 100vh;
+}
 </style>

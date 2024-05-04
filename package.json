@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "primevue": "^3.52.0",
+    "rxjs": "^6.6.7",
+    "vue-rx": "^6.2.0"
+  }
+}
