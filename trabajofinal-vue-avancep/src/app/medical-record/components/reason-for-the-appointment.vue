@@ -1,22 +1,20 @@
 <template>
   <div class="reason-component">
     <div class="box"></div>
-    <Button label="Edit" class="edit-button"></Button>
+    <button label="Edit" class="edit-button"></button>
   </div>
   <p>Current ilness</p>
   <p>Symptoms:</p>
   <div class="reason-component">
     <div class="box"></div>
-    <Button label="Edit" class="edit-button"></Button>
+    <button label="Edit" class="edit-button"></button>
   </div>
 </template>
 
 <script>
-import { Button } from 'primevue/button';
 
 export default {
   components: {
-    Button
   },
   setup() {
     // Aquí puedes agregar la lógica del componente si es necesario
