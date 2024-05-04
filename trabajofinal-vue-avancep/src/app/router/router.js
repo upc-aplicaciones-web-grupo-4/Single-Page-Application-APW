@@ -1,7 +1,7 @@
 
 import {createRouter, createWebHistory} from 'vue-router';
 import CalendarView from '../calendar/pages/calendar-view.pages.vue';
-import DoctorChat from '../communications/pages/doctor-chat.pages.vue';
+import DoctorChat from '../communications/components/doctor-chat.pages.vue';
 import NotificationsView from '../notifications/pages/notifications-view.pages.vue';
 import DoctorProfile from '../profiles/pages/doctor-profile/doctor-profile.pages.vue';
 import HomeDoctor from '../profiles/pages/doctor-profile/home-doctor.pages.vue';
@@ -10,7 +10,7 @@ import HomePatient from '../profiles/pages/patient-profile/home-patient.pages.vu
 //import DoctorHeader from '../shared/pages/header-doctor/header-doctor.pages.vue';
 //import PatientHeader from '../shared/pages/header-patient/header-patient.pages.vue';
 import CalendarPatient from '../calendar/pages/calendar-patient.pages.vue';
-import PatientChat from '../communications/pages/patient-chat.pages.vue';
+import PatientChat from '../communications/components/patient-chat.pages.vue';
 import NotificationsPatients from '../notifications/pages/notification-patients.pages.vue';
 import PatientProfile from '../profiles/pages/patient-profile/patient-profile.pages.vue';
 import SelectRole from '../identity-and-access/pages/select-user-role.pages.vue';
