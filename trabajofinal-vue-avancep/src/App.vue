@@ -31,6 +31,7 @@ export default {
   <!-- <header-doctor></header-doctor>-->
 
   <!--<doctor-registration></doctor-registration>-->
+
  <!--<select-user-role> </select-user-role>-->
 
     <header-for-user-type-service></header-for-user-type-service>
@@ -40,8 +41,6 @@ export default {
 
   <!--<homePatient></homePatient>-->
   <!--<patientProfile></patientProfile>-->
-
-
 
   </template>
 
