@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import PatientsAppointmentsEntity from '../model/patient-appointment.entity.js';
+import PatientsAppointmentsEntity from '../models/patient-appointment.entity.js';
 
 export default class PatientAppointmentService {
     constructor() {
