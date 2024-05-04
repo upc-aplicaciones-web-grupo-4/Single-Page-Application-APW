@@ -15,18 +15,17 @@ const visible = ref(false);
 const searchDoctor = async () => {
   try {
     const doctor = await apiService.getDoctorByEmail(searchEmail.value);
-    if (doctor) {
-      doctorData.value = doctor;
-      visible.value = true; // Mostrar el diálogo
+    if (doctor.error) {
+      // Display a user-friendly message when a doctor is not found
+      alert('Doctor not found. Please check the email and try again.');
     } else {
-      // Mostrar mensaje de error si el doctor no se encuentra
-      console.error('Doctor not found');
+      doctorData.value = doctor;
+      visible.value = true; // Show the dialog
     }
   } catch (error) {
     console.error('Error searching doctor:', error);
   }
 };
-
 
 </script>
 <template>

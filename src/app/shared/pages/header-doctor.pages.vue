@@ -56,13 +56,16 @@ export default {
 
 
 
-<style >
+<style scoped>
 .toolbar-content {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #A788AB;
   width: 100%;
+
+  padding:  0 40px;
 }
 
 .logo-container {
@@ -73,14 +76,16 @@ export default {
 .logo-container .logo {
   border-radius: 60%;
   width: 50px;
-  height: 40px;
+  height: 50px;
   margin-right: 10px;
 }
 
 .p-toolbar-custom {
+  box-sizing: border-box;
   background-color: #A788AB;
   height: 60px;
   width: 100%;
+  margin-right: 40px;
 }
 
 .spacer {

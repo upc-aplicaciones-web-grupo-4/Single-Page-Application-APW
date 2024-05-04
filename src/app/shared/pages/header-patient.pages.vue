@@ -52,16 +52,20 @@ export default {
 
 
 
-<style >
+<style scoped>
 .toolbar-content {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #A788AB;
   width: 100%;
+
+  padding:  0 40px;
 }
 
 .logo-container {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
 }
@@ -69,7 +73,7 @@ export default {
 .logo-container .logo {
   border-radius: 60%;
   width: 50px;
-  height: 40px;
+  height: 50px;
   margin-right: 10px;
 }
 

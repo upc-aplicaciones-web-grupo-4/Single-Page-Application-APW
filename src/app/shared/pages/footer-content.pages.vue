@@ -14,6 +14,7 @@ export default {
 
 <style scoped>
 .footer {
+  box-sizing: border-box;
   background-color: #A788AB;
   padding: 20px 0;
   margin-top: 100vh; /* Ajusta este valor según tus necesidades */
@@ -23,6 +24,7 @@ position: absolute;
 }
 
 .content {
+  box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
   color: #fff;
