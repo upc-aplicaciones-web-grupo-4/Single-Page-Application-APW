@@ -1,5 +1,5 @@
 <template>
-  <headerClinical></headerClinical>
+  <div class="header-container"><headerClinical></headerClinical></div>
   <div class="container">
     <div class="patient-data">
       <patient-data></patient-data>
@@ -30,25 +30,26 @@ export default {
 .container {
   display: flex;
   margin-top: 20px; /* Añade un margen superior para separarlo del encabezado */
-  box-sizing: border-box;
 }
 
 .patient-data {
   /* Estilos para el componente de datos del paciente */
-  flex: 1;
-  margin-left: 20px; /* Espacio entre el componente y el otro componente */
+ /* Espacio entre el componente y el otro componente */
   width: 20%;
-  box-sizing: border-box;
+  display:flex;
 }
 
 .other-component {
   /* Estilos para el otro componente */
-  margin-right: 30px;
   display:flex;
+  flex-direction: column;
   width:80%;
   background: #A788AB;
   border-radius: 8px;
-  flex: 1;
-  box-sizing: border-box;
+}
+.header-container{
+  background: #A788AB;
+  display: flex;
+  width:100%;
 }
 </style>
