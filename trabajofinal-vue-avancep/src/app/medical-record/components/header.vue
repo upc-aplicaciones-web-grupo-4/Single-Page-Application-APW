@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div class="toolbar-content">
-      <button icon="pi pi-arrow-left"></button>
+      <button icon="pi pi-arrow-left">Btçon</button>
       <span>Clinical history of patient Carlos Perez</span>
     </div>
   </div>
@@ -15,17 +15,27 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .content {
   background: #A788AB;
+  display: flex;
+  align-items: center;
   width:100%;
-  box-sizing: border-box;
+
 }
 
 .toolbar-content {
   padding: 10px;
   background-color: #A788AB;
+  display: flex;
+  align-items: center;
   width:100%;
-  box-sizing: border-box;
+
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  width:100%;
 }
 </style>
