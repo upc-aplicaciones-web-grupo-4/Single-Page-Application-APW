@@ -32,17 +32,18 @@ export default {
 
 <template>
 
-  <header-doctor></header-doctor>
 
-  <!--<doctor-registration></doctor-registration>-->
+  <!-- <header-doctor></header-doctor>-->
+
+   <!--<doctor-registration></doctor-registration>-->
 
  <!--<select-user-role> </select-user-role>-->
-  <!--
+
       <header-for-user-type-service></header-for-user-type-service>
       <router-view></router-view>
-  -->
+
   <!--<doctor-patient-pages></doctor-patient-pages>-->
-<PatientDoctorPages></PatientDoctorPages>
+  <!-- <PatientDoctorPages></PatientDoctorPages>-->
 
     <!--<homePatient></homePatient>-->
   <!--<patientProfile></patientProfile>-->
