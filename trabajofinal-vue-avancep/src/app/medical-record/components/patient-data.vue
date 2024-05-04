@@ -42,17 +42,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 /* patient-data.component.css */
 .patient-data-container {
-  width: 250px; /* Ajusta el ancho según tus necesidades */
   background-color: #A788AB;
   border-radius: 8px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 600px;
 }
 
 .patient-data-container h3 {
