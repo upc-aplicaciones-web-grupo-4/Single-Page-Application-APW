@@ -21,6 +21,9 @@ import Background from '../medical-record/components/background.vue'
 import MedicalExams from '../medical-record/components/medical-tests.vue'
 import ExternalReports from '../medical-record/components/external-reports.vue'
 import DiagnosesAndTreatment from '../medical-record/components/diagnosis-and-treatment.vue'
+import ClinicalHistory from '@/app/medical-record/components/clinical-history.vue';
+import MedicalRecordPage from '@/app/medical-record/pages/medical-record.pages.vue';
+import ReasonForTheAppointment from "@/app/medical-record/components/reason-for-the-appointment.vue";
 
 
 const router = createRouter({
@@ -43,11 +46,15 @@ const router = createRouter({
         { path: '/patientProfile', component: PatientProfile },
         { path: '/', redirect: '/selectRole' },
        //{ path: 'medical-history', component: MedicalhistorypageComponent },
-        { path: '/reasonConsultation', component: ReasonConsultation },
-        { path: '/background', component: Background },
-        { path: '/medicalExams', component: MedicalExams },
-        { path: '/externalReports', component: ExternalReports },
-        { path: '/diagnosesAndTreatment', component: DiagnosesAndTreatment },
+        { path: '/medical-record', component: MedicalRecordPage, children: [
+            { path: 'reasonConsultation', component: ReasonConsultation },
+            { path: 'background', component: Background },
+            { path: 'medicalExams', component: MedicalExams },
+            { path: 'externalReports', component: ExternalReports },
+            { path: 'diagnosesAndTreatment', component: DiagnosesAndTreatment }
+            ]},
+        { path: '/clinical-history', component: ClinicalHistory },
+
 
 
        // { path: '**', component: PageNotFoundComponent }

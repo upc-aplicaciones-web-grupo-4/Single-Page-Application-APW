@@ -20,7 +20,7 @@ export default {
     const router = useRouter()
 
     const navigateTo = (route) => {
-      router.push(`/${route}`)
+      router.push(`/medical-record/${route}`)
     }
 
     return {

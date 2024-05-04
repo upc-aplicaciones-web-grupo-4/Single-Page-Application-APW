@@ -39,6 +39,7 @@ import Column from 'primevue/column';
 import Button from 'primevue/button';
 import { ref, onMounted } from 'vue';
 import PatientAppointmentService from "@/app/profiles/services/patient-appointment.service.js";
+import router from "@/app/router/router.js";
 // import a Vue 3 compatible pagination component
 
 export default {
@@ -71,9 +72,9 @@ export default {
     });
 
     const navigateToMedicalHistory = () => {
-
-      this.$router.push('/medical-history');
+      router.push('/medical-record');
     };
+
 
     return { appointmentData, navigateToMedicalHistory };
   }

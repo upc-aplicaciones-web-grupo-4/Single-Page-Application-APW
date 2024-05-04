@@ -1,5 +1,5 @@
 <template>
-  <div class="header-container"><headerClinical></headerClinical></div>
+  <!--<div class="header-container"><headerClinical></headerClinical></div>-->
   <div class="container">
     <div class="patient-data">
       <patient-data></patient-data>
@@ -29,7 +29,7 @@ export default {
 <style>
 .container {
   display: flex;
-  margin-top: 20px; /* Añade un margen superior para separarlo del encabezado */
+  margin-top: 200px; /* Añade un margen superior para separarlo del encabezado */
 }
 
 .patient-data {
