@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const http = axios.create({
-    baseURL: 'http://localhost:3000'
+    baseURL: 'https://json-server-vercel-xi-silk.vercel.app'
 });
 
 // Existing methods

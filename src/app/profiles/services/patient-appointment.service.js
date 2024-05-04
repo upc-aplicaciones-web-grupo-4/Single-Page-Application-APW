@@ -4,7 +4,7 @@ import PatientsAppointmentsEntity from '../models/patient-appointment.entity.js'
 
 export default class PatientAppointmentService {
     constructor() {
-        this.basePath = 'http://localhost:3000';
+        this.basePath = 'https://json-server-vercel-xi-silk.vercel.app';
         this.resourceEndpoint = '/patient-appointments';
     }
 
