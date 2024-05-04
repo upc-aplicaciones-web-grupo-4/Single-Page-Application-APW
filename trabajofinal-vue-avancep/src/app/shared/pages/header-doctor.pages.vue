@@ -5,7 +5,9 @@
         <img src="../../../assets/images/logo.png" alt="Logo" class="logo">
         <h1>HormonalCare</h1>
       </div>
-      <h3>Doctors available</h3>
+      <div class="search-bar-colleague">
+      <doctor-view-colleague></doctor-view-colleague>
+      </div>
       <span class="spacer"></span>
       <router-link v-for="(option, i) in optionsPatients" :key="i" :to="option.path" class="nav-button" :class="{ 'first-button': i === 0 }">
         <div class="icon-text">
@@ -29,9 +31,11 @@ import bell from '@/assets/images/bell.png';
 import homeIcon from '@/assets/images/home-icon.png';
 import profileIcon from '@/assets/images/profile-icon.png';
 import FooterContent from "@/app/shared/pages/footer-content.pages.vue";
+import DoctorViewColleague from "@/app/communications/pages/doctor-view-colleague.vue";
 export default {
   name: 'HeaderPatient',
   components: {
+    DoctorViewColleague,
     FooterContent,
   },
   data() {
@@ -101,5 +105,9 @@ export default {
 
 .nav-button {
   margin-left: 44px;
+}
+.search-bar-colleague{
+  display: flex;
+  margin-left: 25px;
 }
 </style>
