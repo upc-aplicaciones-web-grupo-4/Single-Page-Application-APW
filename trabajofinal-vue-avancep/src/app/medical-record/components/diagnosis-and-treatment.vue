@@ -2,7 +2,7 @@
   <div class="empty-column-container">
     <div class="hola">
       <div class="hola2">
-        Diagnostics <Button label="Add" @click="navigateTo('treatmentPatient')"></Button>
+        Diagnostics <button label="Add" @click="navigateTo('treatmentPatient')"></button>
       </div>
       <div class="column-row-item">
         <ul>
@@ -15,7 +15,7 @@
     </div>
     <div class="hola">
       <div class="hola2">
-        Treatment and medication <Button label="Add" @click="navigateTo('treatmentPatient')"></Button>
+        Treatment and medication <button label="Add" @click="navigateTo('treatmentPatient')"></button>
       </div>
       <div class="column-row-item2">
         <ul>
@@ -31,11 +31,11 @@
 
 <script>
 import { ref } from 'vue'
-import { Button } from 'primevue/button';
+
 
 export default {
   components: {
-    Button
+
   },
   setup() {
     const navigateTo = (route) => {
