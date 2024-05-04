@@ -25,10 +25,10 @@ export default {
   <!-- <header-doctor></header-doctor>-->
 
   <!--<doctor-registration></doctor-registration>-->
- <!--<select-user-role> </select-user-role>-->
-
+ <!--<select-user-role> </select-user-role>
+  <patientProfile></patientProfile>-->
   <homePatient></homePatient>
-  <patientProfile></patientProfile>
+
 
 
 

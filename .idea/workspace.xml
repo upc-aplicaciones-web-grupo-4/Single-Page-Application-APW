@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b71f181-61ae-47a2-8a09-fde7a840b7e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/models/medical-history.entity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/models/patients.entity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/services/medical-history.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/services/patients.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/patient-profile/home-patient.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/patient-profile/home-patient.pages.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/patient-profile/patient-profile.pages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trabajofinal-vue-avancep/src/app/profiles/pages/patient-profile/patient-profile.pages.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,7 @@
       <workItem from="1714421482343" duration="4796000" />
       <workItem from="1714744426642" duration="1694000" />
       <workItem from="1714746489306" duration="2305000" />
-      <workItem from="1714749094885" duration="13999000" />
+      <workItem from="1714749094885" duration="20419000" />
     </task>
     <servers />
   </component>

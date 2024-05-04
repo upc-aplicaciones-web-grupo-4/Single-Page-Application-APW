@@ -16,18 +16,50 @@ export default {
   },
   data() {
     return {
-      treatmentAndMedicationArray: [], // Inicializa treatmentAndMedicationArray como un array vacío
+      visible: false,
+      medicalHistory: {
+        id: '',
+        patient_id: 0,
+        doctors_id: [],
+        date: '',
+        reason: '',
+        symptoms: [],
+        personal_background: '',
+        family_background: '',
+        lab_results_id: 0,
+        physical_test: '',
+        external_reports: [],
+        medical_exams: [],
+        diagnostic: [],
+        treatment_and_medication: [] // Aquí deberían estar los datos de tratamiento y medicación
+      },
+      treatmentAndMedication: {
+        drug_name: '',
+        quantity: '',
+        concentration: '',
+        frequency: '',
+        duration: ''
+      }
     };
   },
   methods: {
+    loadMedicalHistoryByPatientId(patientId) {
+      MedicalHistoryService.getMedicalHistoryByPatientId(patientId)
+          .then(response => {
+            console.log(response.data); // Asegúrate de que los datos sean correctos
+            this.medicalHistory = response.data;
+            if (response.data.treatment_and_medication.length > 0) {
+              this.treatmentAndMedication = response.data.treatment_and_medication[0];
+            }
+          })
+          .catch(error => {
+            console.error(error);
+          });
+    },
     fetchMedicalHistoryByPatientId(patientId) {
       MedicalHistoryService.getMedicalHistoryByPatientId(patientId)
           .then(response => {
-            this.treatmentAndMedicationArray = response.data.treatment_and_medication.map(item => ({
-              medication: item.medication,
-              concentration: item.concentration,
-              frequency: item.frequency
-            }));
+            this.medicalHistory = response.data;
           })
           .catch(error => {
             console.error(error);
@@ -35,6 +67,7 @@ export default {
     }
   },
   mounted() {
+    this.loadMedicalHistoryByPatientId(1);
     this.fetchMedicalHistoryByPatientId(1); // Reemplaza 1 con el ID del paciente que deseas obtener
   }
 };
@@ -51,13 +84,19 @@ export default {
         </div>
       </div>
       <div class="part2">
-        <p-card style="width: 100%; overflow: hidden; border-radius: 20px; background-color: #8f7193">
-          <template #content>
-            <div v-for="(treatment, index) in treatmentAndMedicationArray" :key="index">
-              <div class="con" >
-                <p style="width: 70%; background-color: #dfcae1; border-radius: 10px; padding:10px; "><b>{{ treatment.medication }}</b></p>
-                <p style="width: 20%; background-color: #dfcae1; border-radius: 10px; padding:10px; "><b>{{ treatment.concentration }}</b></p>
-                <p style="width: 20%; background-color: #dfcae1; border-radius: 10px; padding:10px; "><b>{{ treatment.frequency }}</b></p>
+
+        <p-card style="width: 100%; overflow: hidden; border-radius: 20px; align-items: center ; background-color: #8f7193">
+          <template #content >
+            <div v-if="medicalHistory && medicalHistory.treatment_and_medication.length > 0">
+              <div class="con">
+                <p style="display: flex; flex-direction: column; color: black; font-size: 20px; width: 50%;"><b>Medication</b></p>
+                <p style="display: flex; flex-direction: column; color: black; font-size: 20px; width: 20%;"><b>Concentration</b></p>
+                <p style="display: flex; flex-direction: column; color: black; font-size: 20px; width: 20%;"><b>Frequency</b></p>
+              </div>
+              <div class="con" v-for="(treatment, index) in medicalHistory.treatment_and_medication" :key="index">
+                <p style="display: flex; flex-direction: column; text-align: center; align-items: center; width: 50%; background-color: #dfcae1; border-radius: 10px; padding:20px 10px; "><b>{{ treatment.drug_name }}</b></p>
+                <p style="display: flex; flex-direction: column; text-align: center; align-items: center; width: 20%; background-color: #dfcae1; border-radius: 10px; padding:20px 10px ; "><b>{{ treatment.concentration }}</b></p>
+                <p style="display: flex; flex-direction: column; text-align: center; align-items: center; width: 20%; background-color: #dfcae1; border-radius: 10px; padding:20px 10px; "><b>{{ treatment.frequency }}</b></p>
               </div>
             </div>
           </template>
@@ -69,28 +108,15 @@ export default {
     <div class="box2">
 
       <div class="part1">
-        <p-card style="width: 100%; overflow: hidden; border-radius: 20px; background-color: #8f7193" >
-
-          <template  #content>
-
+        <p-card style="width: 100%; overflow: hidden; border-radius: 20px; background-color: #8f7193">
+          <template #content>
             <div class="sec">
-              <h2>Earrings</h2>
-              <div>
-                <Checkbox id="pepperoni" v-model="toppings.pepperoni" />
-                <label for="pepperoni">Pepperoni</label>
+              <h2>Medical Exams</h2>
+              <div v-for="(exam, index) in medicalHistory.medical_exams" :key="index">
+                <Checkbox :id="`exam-${index}`" v-model="exam.checked" />
+                <label :for="`exam-${index}`" style="padding-left:20px;">{{ exam }}</label>
               </div>
-              <div>
-                <Checkbox id="extraCheese" v-model="toppings.extraCheese" />
-                <label for="extraCheese">Extra Cheese</label>
-              </div>
-              <div>
-                <Checkbox id="mushroom" v-model="toppings.mushroom" />
-                <label for="mushroom">Mushroom</label>
-              </div>
-
             </div>
-
-
           </template>
         </p-card>
       </div>
@@ -99,16 +125,12 @@ export default {
 
         <Dialog v-model:visible="visible" class="dialog" :modal="true" header="Pending exams" :style="{ width: '40%'  }" :closable="false" >
           <div class="dialog-content">
-            <div>
-              <Checkbox v-model="toppings.pepperoni" /><label>Peppaseroni</label><input  class="input" type="file">
-            </div>
-            <div>
-              <Checkbox v-model="toppings.extraCheese" /><label>Extra Cheese</label><input  class="input" type="file">
-            </div>
-            <div>
-              <Checkbox v-model="toppings.mushroom" /><label>Mushroom</label><input  class="input" type="file">
-            </div>
-          </div>
+    <div v-for="(exam, index) in medicalHistory.medical_exams" :key="index">
+      <Checkbox :id="`exam-${index}`" v-model="exam.checked" />
+      <label :for="`exam-${index}`">{{ exam }}</label>
+      <input class="input" type="file">
+    </div>
+  </div>
           <div class="dialog-actions">
             <div class="flex justify-content-end gap-2">
               <Button type="button" label="Cancel" severity="secondary" @click="visible = false">No</Button>
@@ -116,6 +138,7 @@ export default {
             </div>
           </div>
         </Dialog>
+
 
 
 
@@ -129,10 +152,12 @@ export default {
 .cont {
   box-sizing: border-box;
   width:100%;
+  height: 100vh;
   display: flex;
   flex-direction: row !important;
   gap: 20px;
   background-color: #e5dde6;
+  align-items: center;
 }
 
 .box1, .box2 {
@@ -172,7 +197,13 @@ export default {
   font-size: 16px;
 
 }
+.con p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  margin: 5px 0;
+}
 
 .sec h2{
   margin: 0;
