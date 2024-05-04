@@ -8,6 +8,7 @@ import SelectUserRole from './app/identity-and-access/pages/select-user-role.pag
 import userTypeService from "@/app/shared/services/user-type.service";
 import HeaderForUserTypeService from "@/app/shared/components/header-for-user-type-services.vue";
 import DoctorPatientPages from "@/app/communications/pages/doctor-patient.pages.vue";
+import PatientDoctorPages from "@/app/communications/pages/patient-doctor.pages.vue";
 export default {
   components: {
     SelectUserRole,
@@ -17,7 +18,8 @@ export default {
     patientProfile,
     headerDoctor,
     HeaderForUserTypeService,
-    DoctorPatientPages
+    DoctorPatientPages,
+    PatientDoctorPages
   },
   computed: {
     userType() {
@@ -39,8 +41,8 @@ export default {
       <header-for-user-type-service></header-for-user-type-service>
       <router-view></router-view>
   -->
-  <doctor-patient-pages></doctor-patient-pages>
-
+  <!--<doctor-patient-pages></doctor-patient-pages>-->
+<PatientDoctorPages></PatientDoctorPages>
 
     <!--<homePatient></homePatient>-->
   <!--<patientProfile></patientProfile>-->
