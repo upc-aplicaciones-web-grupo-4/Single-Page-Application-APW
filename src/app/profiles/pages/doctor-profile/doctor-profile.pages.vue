@@ -22,7 +22,11 @@ export default  {
         name: '',
         lastname: '',
         email: '',
-        password: ''
+        password: '',
+        sub_speciality:'',
+        college_number:'',
+        fee:'',
+        code_of_doctor:''
       }
     };
   },
@@ -90,6 +94,22 @@ export default  {
               <div class="p-field">
                 <label for="email">E-mail</label>
                 <InputText id="email" v-model="profile.email" />
+              </div>
+              <div class="p-field">
+                <label for="subspeciality">Sub Speciality</label>
+                <InputText id="subspeciality" v-model="profile.sub_speciality" />
+              </div>
+              <div class="p-field">
+                <label for="collegenumber">College Number</label>
+                <InputText id="collegenumber" v-model="profile.college_number" />
+              </div>
+              <div class="p-field">
+                <label for="fee">Fee</label>
+                <InputText id="fee" v-model="profile.fee" />
+              </div>
+              <div class="p-field">
+                <label for="codeofdoctor">Code of Doctor</label>
+                <InputText id="codeofdoctor" v-model="profile.code_of_doctor" />
               </div>
               <div class="p-field">
                 <label for="password">Password</label>
