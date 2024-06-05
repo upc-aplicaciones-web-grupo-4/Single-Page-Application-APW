@@ -10,11 +10,11 @@ import HomePatient from '../profiles/pages/patient-profile/home-patient.pages.vu
 //import DoctorHeader from '../shared/pages/header-doctor/header-doctor.pages.vue';
 //import PatientHeader from '../shared/pages/header-patient/header-patient.pages.vue';
 import CalendarPatient from '../calendar/pages/calendar-patient.pages.vue';
-import PatientChat from '../communications/components/patient-chat.pages.vue';
 import NotificationsPatients from '../notifications/pages/notification-patients.pages.vue';
 import PatientProfile from '../profiles/pages/patient-profile/patient-profile.pages.vue';
 import SelectRole from '../identity-and-access/pages/select-user-role.pages.vue';
-
+import PatientDoctorPages from "@/app/communications/pages/patient-doctor.pages.vue";
+import doctorPatientPages from "@/app/communications/pages/doctor-patient.pages.vue";
 
 import ReasonConsultation from '../medical-record/components/reason-for-the-appointment.vue'
 import Background from '../medical-record/components/background.vue'
@@ -35,29 +35,29 @@ const router = createRouter({
         { path: '/homePatient', component: HomePatient },
 
         { path: '/calendar', component: CalendarView },
-        { path: '/messages', component: DoctorChat },
+        { path: '/messages', component: doctorPatientPages },
         { path: '/notifications', component: NotificationsView },
         { path: '/doctorProfile', component: DoctorProfile },
         //{ path: '/doctor-header', component: DoctorHeader},
         //{ path: '/patient-header', component: PatientHeader},
         { path: '/calendarPatient', component: CalendarPatient },
-        { path: '/messagesPatient', component: PatientChat },
+        { path: '/messagesPatient', component: PatientDoctorPages },
         { path: '/notificationsPatient', component: NotificationsPatients},
         { path: '/patientProfile', component: PatientProfile },
         { path: '/', redirect: '/selectRole' },
-       //{ path: 'medical-history', component: MedicalhistorypageComponent },
+        //{ path: 'medical-history', component: MedicalhistorypageComponent },
         { path: '/medical-record', component: MedicalRecordPage, children: [
-            { path: 'reasonConsultation', component: ReasonConsultation },
-            { path: 'background', component: Background },
-            { path: 'medicalExams', component: MedicalExams },
-            { path: 'externalReports', component: ExternalReports },
-            { path: 'diagnosesAndTreatment', component: DiagnosesAndTreatment }
+                { path: 'reasonConsultation', component: ReasonConsultation },
+                { path: 'background', component: Background },
+                { path: 'medicalExams', component: MedicalExams },
+                { path: 'externalReports', component: ExternalReports },
+                { path: 'diagnosesAndTreatment', component: DiagnosesAndTreatment }
             ]},
         { path: '/clinical-history', component: ClinicalHistory },
 
 
 
-       // { path: '**', component: PageNotFoundComponent }
+        // { path: '**', component: PageNotFoundComponent }
     ]
 })
 
