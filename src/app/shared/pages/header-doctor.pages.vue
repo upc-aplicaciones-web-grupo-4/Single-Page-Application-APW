@@ -2,59 +2,83 @@
   <Toolbar class="p-component p-toolbar-custom">
     <div class="toolbar-content">
       <div class="logo-container">
-        <img src="../../../assets/images/logo.png" alt="Logo" class="logo">
+        <img :src="logo" alt="Logo" class="logo">
         <h1>HormonalCare</h1>
       </div>
       <div class="search-bar-colleague">
-      <doctor-view-colleague></doctor-view-colleague>
+        <doctor-view-colleague></doctor-view-colleague>
       </div>
       <span class="spacer"></span>
-      <router-link v-for="(option, i) in optionsPatients" :key="i" :to="option.path" class="nav-button" :class="{ 'first-button': i === 0 }">
+
+      <!-- Enlaces de navegación para los pacientes listados individualmente -->
+      <router-link to="/homeDoctor" class="nav-button first-button">
         <div class="icon-text">
-          <img :src="option.icon" alt="option.title" class="option-icon">
+          <img :src="homeIcon" alt="Home" class="option-icon">
+          <span>Home</span>
         </div>
-        {{ option.title }}
+      </router-link>
+
+      <router-link to="/calendar" class="nav-button">
+        <div class="icon-text">
+          <img :src="calendarIcon" alt="Calendar" class="option-icon">
+          <span>Calendar</span>
+        </div>
+      </router-link>
+
+      <router-link to="/messages" class="nav-button">
+        <div class="icon-text">
+          <img :src="messageIcon" alt="Messages" class="option-icon">
+          <span>Messages</span>
+        </div>
+      </router-link>
+
+      <div class="separator"></div>
+      <NotificationDropdown />
+      <div class="separator"></div>
+
+
+      <router-link to="/doctorProfile" class="nav-button">
+        <div class="icon-text">
+          <img :src="profileIcon" alt="Profile" class="option-icon">
+          <span>Profile</span>
+        </div>
       </router-link>
     </div>
   </Toolbar>
   <footer-content />
 </template>
 
-
 <script>
-
 import Toolbar from 'primevue/toolbar';
 import logo from '@/assets/images/logo.png';
-import calendar from '@/assets/images/calendar.png';
-import message from '@/assets/images/message.png';
-import bell from '@/assets/images/bell.png';
+import calendarIcon from '@/assets/images/calendar.png';
+import messageIcon from '@/assets/images/message.png';
+import bellIcon from '@/assets/images/bell.png';
 import homeIcon from '@/assets/images/home-icon.png';
 import profileIcon from '@/assets/images/profile-icon.png';
 import FooterContent from "@/app/shared/pages/footer-content.pages.vue";
 import DoctorViewColleague from "@/app/communications/pages/doctor-view-colleague.vue";
+import NotificationDropdown from "@/app/notifications/pages/notification-patients.pages.vue";
+
 export default {
   name: 'HeaderPatient',
   components: {
+    NotificationDropdown,
     DoctorViewColleague,
     FooterContent,
   },
   data() {
     return {
       logo,
-      optionsPatients: [
-        { path: '/homeDoctor', title: 'Home', icon: homeIcon},
-        { path: '/calendar', title: 'Calendar', icon: calendar},
-        { path: '/messages', title: 'Messages', icon: message},
-        { path: '/notifications', title: 'Notifications', icon: bell},
-        { path: '/doctorProfile', title: 'Profile', icon: profileIcon},
-      ]
-
+      homeIcon,
+      calendarIcon,
+      messageIcon,
+      bellIcon,
+      profileIcon,
     }
   }
 }
 </script>
-
-
 
 <style scoped>
 .toolbar-content {
@@ -64,8 +88,7 @@ export default {
   justify-content: space-between;
   background-color: #A788AB;
   width: 100%;
-
-  padding:  0 40px;
+  padding: 0 40px;
 }
 
 .logo-container {
@@ -93,10 +116,8 @@ export default {
 }
 
 .icon-text {
-  top: 8px;
-  position: relative;
-  display: inline-block;
-  margin-left: 0;
+  display: flex;
+  align-items: center;
 }
 
 .option-icon {
@@ -109,9 +130,21 @@ export default {
 }
 
 .nav-button {
-  margin-left: 44px;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
 }
-.search-bar-colleague{
+
+.nav-button:hover {
+  text-decoration: underline;
+}
+
+/* Añadir estilo para el separador */
+.separator {
+  width: 40px; /* Puedes ajustar el ancho según tus necesidades */
+}
+
+.search-bar-colleague {
   display: flex;
   margin-left: 25px;
 }
