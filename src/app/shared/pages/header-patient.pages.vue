@@ -7,50 +7,73 @@
       </div>
       <h3>Doctors available</h3>
       <span class="spacer"></span>
-      <router-link v-for="(option, i) in optionsPatients" :key="i" :to="option.path" class="nav-button" :class="{ 'first-button': i === 0 }">
+
+      <!-- Enlaces de navegación para los pacientes listados individualmente -->
+      <router-link to="/homePatient" class="nav-button first-button">
         <div class="icon-text">
-          <img :src="option.icon" alt="option.title" class="option-icon">
+          <img :src="homeIcon" alt="Home" class="option-icon">
+          <span>Home</span>
         </div>
-        {{ option.title }}
       </router-link>
+
+      <router-link to="/calendarPatient" class="nav-button">
+        <div class="icon-text">
+          <img :src="calendarIcon" alt="Calendar" class="option-icon">
+          <span>Calendar</span>
+        </div>
+      </router-link>
+
+      <router-link to="/messagesPatient" class="nav-button">
+        <div class="icon-text">
+          <img :src="messageIcon" alt="Messages" class="option-icon">
+          <span>Messages</span>
+        </div>
+      </router-link>
+
+      <div class="separator"></div>
+      <NotificationDropdown />
+
+      <router-link to="/patientProfile" class="nav-button">
+        <div class="icon-text">
+          <img :src="profileIcon" alt="Profile" class="option-icon">
+          <span>Profile</span>
+        </div>
+      </router-link>
+
     </div>
   </Toolbar>
   <footer-content />
 </template>
 
-
 <script>
-
 import Toolbar from 'primevue/toolbar';
 import logo from '@/assets/images/logo.png';
-import calendar from '@/assets/images/calendar.png';
-import message from '@/assets/images/message.png';
-import bell from '@/assets/images/bell.png';
+import calendarIcon from '@/assets/images/calendar.png';
+import messageIcon from '@/assets/images/message.png';
+import bellIcon from '@/assets/images/bell.png';
 import homeIcon from '@/assets/images/home-icon.png';
 import profileIcon from '@/assets/images/profile-icon.png';
 import FooterContent from "@/app/shared/pages/footer-content.pages.vue";
+import NotificationDropdown from "@/app/notifications/pages/notification-patients.pages.vue";
+
 export default {
   name: 'HeaderPatient',
   components: {
     FooterContent,
+    NotificationDropdown,
   },
   data() {
     return {
       logo,
-      optionsPatients: [
-        { path: '/homePatient', title: 'Home', icon: homeIcon},
-        { path: '/calendarPatient', title: 'Calendar', icon: calendar},
-        { path: '/messagesPatient', title: 'Messages', icon: message},
-        { path: '/notificationsPatient', title: 'Notifications', icon: bell},
-        { path: '/patientProfile', title: 'Profile', icon: profileIcon},
-      ]
-
+      homeIcon,
+      calendarIcon,
+      messageIcon,
+      bellIcon,
+      profileIcon,
     }
   }
 }
 </script>
-
-
 
 <style scoped>
 .toolbar-content {
@@ -60,8 +83,7 @@ export default {
   justify-content: space-between;
   background-color: #A788AB;
   width: 100%;
-
-  padding:  0 40px;
+  padding: 0 40px;
 }
 
 .logo-container {
@@ -88,10 +110,8 @@ export default {
 }
 
 .icon-text {
-  top: 8px;
-  position: relative;
-  display: inline-block;
-  margin-left: 0;
+  display: flex;
+  align-items: center;
 }
 
 .option-icon {
@@ -104,6 +124,16 @@ export default {
 }
 
 .nav-button {
-  margin-left: 44px;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  width: 30px; /* Puedes ajustar el ancho según tus necesidades */
 }
 </style>
