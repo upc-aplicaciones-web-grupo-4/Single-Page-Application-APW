@@ -24,7 +24,8 @@ import DiagnosesAndTreatment from '../medical-record/components/diagnosis-and-tr
 import ClinicalHistory from '@/app/medical-record/components/clinical-history.vue';
 import MedicalRecordPage from '@/app/medical-record/pages/medical-record.pages.vue';
 import ReasonForTheAppointment from "@/app/medical-record/components/reason-for-the-appointment.vue";
-
+import DoctorRegistrationPages from "@/app/identity-and-access/pages/doctor-registration.pages.vue";
+import PatientRegistrationPages from "@/app/identity-and-access/pages/patient-registration.pages.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -54,6 +55,9 @@ const router = createRouter({
                 { path: 'diagnosesAndTreatment', component: DiagnosesAndTreatment }
             ]},
         { path: '/clinical-history', component: ClinicalHistory },
+        { path: '/doctoregister', component: DoctorRegistrationPages},
+        { path: '/patientregister', component: PatientRegistrationPages}
+
 
 
 
