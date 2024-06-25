@@ -1,238 +1,175 @@
-<script >
-
-</script>
-
 <template>
-  <Toolbar class="full-width-toolbar">
-    <template #start>
-      <h1>Registration of an endocrinologist doctor</h1>
-    </template>
-    <template #end>
-      <button label="Back" icon="pi pi-arrow-left" @click="backToSelectUser">Back</button>
-    </template>
-  </Toolbar>
-
-  <div class="container">
-    <p>Please complete the following fields to complete your registration in the “HormonalCare” application:</p>
-    <div class="formAndimg">
-      <div class="formContainer">
-        <form>
-          <div class="fname">
-            <label for="fname">First name: </label>
-            <input type="text" id="fname" name="fname">
-          </div>
-          <div class="lname">
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname">
-          </div>
-          <div class="age">
-            <label for="age">Age: </label>
-            <input type="number" id="age" name="age">
-          </div>
-          <div class="mail">
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="mail">
-          </div>
-          <div class="password">
-            <label for="password">Password: </label>
-            <input type="password" id="password" name="password">
-          </div>
-          <div class="qualific">
-            <label for="qualific">Qualification:</label>
-            <input type="number" id="qualific" name="qualific">
-          </div>
-          <div class="schoolNo">
-            <label for="schoolNo">School Number:</label>
-            <input type="number" id="schoolNo" name="schoolNo">
-          </div>
-        </form>
-      </div>
-      <div class="buttonContainer">
-        <div class="buttonDiv">
-          <div class="buttonBackground">
-            <button id="customButton">Click me</button>
-          </div>
-        </div>
-        <div class="continueDiv">
-                  <button id="continueButton">Continue</button>
-        </div>
+  <div class="component-background">
+    <div class="toolbar">
+      <span class="title">Registration of an endocrinologist doctor</span>
+      <button @click="goBack" class="back-button">Back</button>
     </div>
+    <div class="form-container">
+      <form @submit.prevent="submitForm">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" v-model="form.firstName" required />
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" v-model="form.lastName" required />
+        </div>
+        <div class="form-group">
+          <label for="image">Image URL:</label>
+          <input type="text" id="image" v-model="form.image" required />
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" v-model="form.gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="birthDate">Birth Date:</label>
+          <input type="date" id="birthDate" v-model="form.birthDate" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" v-model="form.phone" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" v-model="form.email" required />
+        </div>
+        <div class="form-group">
+          <label for="professionalIdentificationNumber">Professional Identification Number:</label>
+          <input type="number" id="professionalIdentificationNumber" v-model="form.professionalIdentificationNumber" required />
+        </div>
+        <div class="form-group">
+          <label for="subSpecialty">SubSpecialty:</label>
+          <input type="text" id="subSpecialty" v-model="form.subSpecialty" required />
+        </div>
+        <div class="form-group">
+          <label for="certification">Certification:</label>
+          <input type="text" id="certification" v-model="form.certification" required />
+        </div>
+        <div class="form-group">
+          <label for="appointmentFee">Appointment Fee:</label>
+          <input type="number" id="appointmentFee" v-model="form.appointmentFee" required />
+        </div>
+        <div class="form-group">
+          <label for="subscriptionId">Subscription ID:</label>
+          <input type="number" id="subscriptionId" v-model="form.subscriptionId" required />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   </div>
 </template>
 
-<style scoped>
-@import 'primevue/resources/themes/saga-blue/theme.css';
-@import 'primevue/resources/primevue.min.css';
-
-  .full-width-toolbar {
-    width: 100%;
-    background-color: rgba(167, 138, 171, 1);
-    color: white;
-    position: fixed;
-    z-index: 1000;
-    font-family: "Comic Sans", sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
+<script>
+export default {
+  data() {
+    return {
+      form: {
+        firstName: '',
+        lastName: '',
+        image: '',
+        gender: '',
+        birthDate: '',
+        phone: '',
+        email: '',
+        professionalIdentificationNumber: '',
+        subSpecialty: '',
+        certification: '',
+        appointmentFee: '',
+        subscriptionId: ''
+      }
+    };
+  },
+  methods: {
+    submitForm() {
+      // Aquí puedes manejar el envío del formulario, por ejemplo, enviándolo a una API
+      console.log(this.form);
+    },
+    goBack() {
+      // Aquí puedes manejar la lógica para volver a la página anterior
+      console.log('Back button clicked');
+    }
   }
+};
+</script>
 
-  h1{
-    margin: 0;
-  }
-
-  p{
-    height:20px;
-    width: 100%;
-    padding-left: 20px;
-    margin-bottom: 20px;
-    align-items: center;
-
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(229, 221, 230, 0.8392);
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center center;
-    position: absolute;
-    font-family: "Comic Sans", sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
-    top: 100px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
-  }
-  .formAndimg{
-    height:80%;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-  }
-
-  .formContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 60%;
-    height: 90%;
-  }
-
-  form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(167, 138, 171, 1);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-radius: 35px;
-    width: 80%;
-    height: 600px;
-  }
-
-  .fname, .lname, .age, .mail, .password, .qualific, .schoolNo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    height:10%;
-    background-color: rgba(217, 217, 217, 1);
-    border-radius: 20px;
-    padding: 5px 20px 5px 20px;
-
-
-  }
-
-  .fname label, .lname label, .age label, .mail label, .password label, .qualific label, .schoolNo label {
-    flex: 1;
-    text-align: left;
-  }
-
-  .fname input, .lname input, .age input, .mail input, .password input, .qualific input, .schoolNo input {
-    flex: 2;
-    border-radius: 7px;
-    border: none;
-    padding: 3px 10px 3px 10px;
-    height:80%;
-
-  }
-
-  .buttonDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 70%;
-  }
-  .buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 40%;
-    height: 90%;
-    border-radius: 10px;
-  }
-
-  .buttonBackground {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 350px;
-    background-color: rgba(167, 138, 171, 1);
-    border-radius: 35px;
-  }
-
-  #customButton {
-    width: 400px;
-    height: 350px;
-    background: url('@/assets/images/default-image.png') no-repeat;
-    background-size: cover;
-    border: none;
-    color: transparent;
-  }
-
-.buttonDiv {
-    height: 60%;
-
-    border-radius: 10px;
-    border: none;
-
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-.continueDiv{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 40%;
+<style>
+.component-background {
+  background-color: #e5dde6;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-#continueButton {
-  width: 228px;
-  height: 83px;
-  background-color: rgba(167, 138, 171, 1);
-  border-radius: 35px;
-  border: none;
+.toolbar {
+  position: absolute; /* Hace que la posición del toolbar sea absoluta */
+  top: 0; /* Alinea el toolbar con la parte superior del componente */
+  left: 0; /* Alinea el toolbar con el lado izquierdo del componente */
+  width: 100%; /* Hace que el toolbar tenga el mismo ancho que el componente */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a78aab;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.title {
   font-size: 20px;
-  font-weight: bold;
+}
+
+.back-button {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #f0f0f0;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 70px auto 0 20px; /* Añade un margen a la izquierda */
+  padding: 40px 20px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 0 0 10px 10px;
+  background-color: #a78aab;
   color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
 }
 </style>
