@@ -30,6 +30,7 @@
 import logo from '@/assets/images/logo.png';
 
 export default {
+  name: 'DoctorLogin',
   data() {
     return {
       logo,
