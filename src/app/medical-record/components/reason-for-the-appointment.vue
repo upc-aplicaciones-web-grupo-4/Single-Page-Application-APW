@@ -1,27 +1,38 @@
 <template>
   <div class="reason-component">
-    <div class="box"></div>
+    <div class="box">{{ reason.description }}</div>
     <button label="Edit" class="edit-button"></button>
   </div>
   <p>Current ilness</p>
   <p>Symptoms:</p>
   <div class="reason-component">
-    <div class="box"></div>
+    <div class="box">{{ reason.symptoms }}</div>
     <button label="Edit" class="edit-button"></button>
   </div>
 </template>
 
 <script>
+import { ref, onMounted } from 'vue';
+import { getReasonsForTheAppointmentByMedicalRecordId } from '../services/reason-for-the-appointment.service.js';
 
 export default {
   components: {
   },
   setup() {
-    // Aquí puedes agregar la lógica del componente si es necesario
+    const reason = ref({ id:'', description: '', symptoms: '' });
+
+    onMounted(async () => {
+      const medicalRecordId = 1; // Reemplaza esto con el ID de registro médico correcto
+      const response = await getReasonsForTheAppointmentByMedicalRecordId(medicalRecordId);
+      reason.value = response.data;
+    });
+
+    return { reason };
   }
 }
 </script>
 
+<!-- El resto de tu código -->
 <style scoped>
 .reason-component {
   display: flex;
