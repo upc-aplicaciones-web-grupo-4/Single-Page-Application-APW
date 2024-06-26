@@ -26,6 +26,7 @@ import MedicalRecordPage from '@/app/medical-record/pages/medical-record.pages.v
 import ReasonForTheAppointment from "@/app/medical-record/components/reason-for-the-appointment.vue";
 import DoctorRegistrationPages from "@/app/identity-and-access/pages/doctor-registration.pages.vue";
 import PatientRegistrationPages from "@/app/identity-and-access/pages/patient-registration.pages.vue";
+import PatientLoginPages from "@/app/identity-and-access/pages/patient-login.pages.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -56,7 +57,8 @@ const router = createRouter({
             ]},
         { path: '/clinical-history', component: ClinicalHistory },
         { path: '/doctoregister', component: DoctorRegistrationPages},
-        { path: '/patientregister', component: PatientRegistrationPages}
+        { path: '/patientregister', component: PatientRegistrationPages},
+        { path: '/patientlogin', component: PatientLoginPages}
 
 
 
